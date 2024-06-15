@@ -5,26 +5,25 @@ import profPic from './profPicLarge.jpg';
 import AboutLinks from './AboutLinks';
 
 const About = () => {
-    return ( 
+    return (
         <div style={styles.container}>
             <FallingParticles />
             <div style={styles.content}>
                 <div style={styles.leftContent}>
                     <h1>About Me</h1>
                     <p>
-                        <br/>
-                        Hi! I’m Samuel, a third-year studying Computer Science at Cornell University with a minor in Artificial Intelligence.                    
-                        <br/>
-                        <br/> Currently, my interests lie in software engineering, web development, and robotics.
-                        <br/>
-                        <br/> In my free time, I love to golf 🏌️‍♂️, travel 🌍, and see snow fall ☃️. 
-                        <br/>
-                        <br/> Feel free to reach out anytime for a chat!
+                        <br /> Hi! I’m Samuel, a third-year studying Computer Science at Cornell University with a minor in Artificial Intelligence.
+                        <br />
+                        <br /> Currently, my interests lie in software engineering, web development, and robotics.
+                        <br />
+                        <br /> In my free time, I love to golf 🏌️‍♂️, travel 🌍, and see snow fall ☃️.
+                        <br />
+                        <br /> Feel free to reach out anytime for a chat!
                     </p>
                     <DisappearingText />
                 </div>
                 <div style={styles.rightContent}>
-                    <div style={{ ...styles.imageContainer, marginLeft: "10px" }}> {/* Added marginLeft */}
+                    <div style={styles.imageContainer}>
                         <img src={profPic} alt="About Me" style={styles.image} />
                     </div>
                     <div style={styles.linksContainer}>
@@ -34,19 +33,20 @@ const About = () => {
             </div>
         </div>
     );
-}
+};
 
 const styles = {
     container: {
         backgroundColor: "lightblue",
         width: "100vw",
-        height: "90vh",
+        height: "100vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center", // Align items vertically
         paddingTop: '50px', // Add some padding at the top
         position: "relative",
-        overflowY: "auto",
+        overflowY: "auto", // Allow the container to scroll vertically if content overflows
+        boxSizing: "border-box", // Ensure padding is included in the height calculation
     },
     content: {
         display: "flex",
@@ -55,6 +55,7 @@ const styles = {
         margin: "0 auto", // Center the content horizontally
         flexDirection: "row", // Default to row layout
         alignItems: "center",
+        boxSizing: "border-box", // Ensure padding is included in the width calculation
     },
     leftContent: {
         flex: 1, // Take up remaining space
@@ -68,9 +69,11 @@ const styles = {
         display: "flex",
         flexDirection: "column", // Stack elements vertically
         alignItems: "center",
+        paddingTop: '20px', // Add padding at the top
     },
     imageContainer: {
         marginBottom: "20px", // Add space between image and links
+        marginLeft: "10px", // Add margin left
     },
     image: {
         width: '250px', // Adjust the size of the image as needed
@@ -94,6 +97,7 @@ const styles = {
         content: {
             flexDirection: "column", // Stack the content vertically
             alignItems: "center", // Center the items horizontally
+            height: "auto", // Ensure the content takes up the necessary height
         },
         rightContent: {
             alignItems: "center", // Center the right content items horizontally

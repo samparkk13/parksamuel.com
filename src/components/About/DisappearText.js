@@ -32,7 +32,7 @@ const styles = {
   },
   text: {
     fontSize: '1.0em',
-    color: 'black',
+    color: 'white',
     fontFamily: 'Impact, fantasy', // Apply the Google Font
   },
 };
