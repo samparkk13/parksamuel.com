@@ -24,7 +24,7 @@ const About = () => {
                     <DisappearingText />
                 </div>
                 <div style={styles.rightContent}>
-                    <div style={styles.imageContainer}>
+                    <div style={{ ...styles.imageContainer, marginLeft: "10px" }}> {/* Added marginLeft */}
                         <img src={profPic} alt="About Me" style={styles.image} />
                     </div>
                     <div style={styles.linksContainer}>
@@ -52,6 +52,8 @@ const styles = {
         maxWidth: "800px", // Adjust the max width of the content
         padding: "0 20px", // Add padding around the content
         margin: "0 auto", // Center the content horizontally
+        flexDirection: "row", // Default to row layout
+        alignItems: "center",
     },
     leftContent: {
         flex: 1, // Take up remaining space
@@ -64,26 +66,42 @@ const styles = {
         zIndex: 1, // Ensure the content is above the particles
         display: "flex",
         flexDirection: "column", // Stack elements vertically
-        marginTop: "-50px"
+        alignItems: "center",
     },
     imageContainer: {
         marginBottom: "20px", // Add space between image and links
-        marginRight: "-20px", // this is to control the horizontal location of image
     },
     image: {
         width: '250px', // Adjust the size of the image as needed
         height: 'auto',
-        borderRadius: 200 // Optional: makes the image round 
+        borderRadius: 200, // Optional: makes the image round 
+        marginRight: "10px", // Small margin to the right
     },
     linksContainer: {
         display: "flex",
+        flexDirection: "column", // Stack the links vertically
         alignItems: "center",
-        marginLeft: "auto", // Push the links to the right
+        marginTop: "10px", // Add some space between the image and the links
     },
     particleCanvas: {
         position: "absolute",
         bottom: 0,
         left: 0,
+    },
+    // Add media query for responsive design
+    '@media (max-width: 768px)': {
+        content: {
+            flexDirection: "column", // Stack the content vertically
+            alignItems: "center", // Center the items horizontally
+        },
+        rightContent: {
+            alignItems: "center", // Center the right content items horizontally
+            marginTop: "20px", // Add some space between the left and right content
+        },
+        image: {
+            marginRight: 0, // Remove right margin for the image
+            marginBottom: "10px", // Add bottom margin for spacing
+        },
     },
 };
 
