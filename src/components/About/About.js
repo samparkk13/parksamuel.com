@@ -46,6 +46,7 @@ const styles = {
         alignItems: "center", // Align items vertically
         paddingTop: '50px', // Add some padding at the top
         position: "relative",
+        overflow: "auto",
     },
     content: {
         display: "flex",
