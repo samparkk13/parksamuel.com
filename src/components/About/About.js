@@ -1,7 +1,7 @@
 import React from 'react';
-import FallingParticles from './FallingParticles';
+import FallingParticles from './Snow/FallingParticles';
 import DisappearingText from './DisappearText';
-import profPic from './profPicLarge.jpg';
+import profPic from './ProfilePics/profPicLarge.jpg';
 import AboutLinks from './AboutLinks';
 
 const About = () => {
@@ -39,13 +39,13 @@ const styles = {
     container: {
         backgroundColor: "lightblue",
         width: "100vw",
-        height: "100vh",
+        height: "90vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center", // Align items vertically
         paddingTop: '50px', // Add some padding at the top
         position: "relative",
-        overflowY: "auto", // Allow the container to scroll vertically if content overflows
+        // overflowY: "auto", // Allow the container to scroll vertically if content overflows
         boxSizing: "border-box", // Ensure padding is included in the height calculation
     },
     content: {

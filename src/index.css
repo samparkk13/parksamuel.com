@@ -34,12 +34,15 @@ body {
   color: #f1356d;
 }
 .large-font {
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 50px;
   text-align: center;
 }
 
 .footer {
+  position: 'fixed';
+  bottom:0;
+  z-index:1000;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -64,3 +67,33 @@ body {
 body {
   overflow-x: hidden;
 }
+
+
+/* for some reason the styling for Home.js is broken */
+
+/* 
+.buttonContainer {
+  margin-top: '20px';
+  text-align: 'center';
+}
+.button {
+  background-color: #7CB9E8;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.container {
+  background-color: lightblue;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  position: relative;
+} */
