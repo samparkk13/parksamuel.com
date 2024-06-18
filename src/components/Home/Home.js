@@ -29,7 +29,7 @@ const styles = {
   container: {
       backgroundColor: "lightblue",
       width: "100vw",
-      height: "90vh",
+      height: "100vh",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
