@@ -21,12 +21,15 @@ const BlogCard = ({ title, time, description, image, path }) => {
       background={isOnBlock ? "linear-gradient(to right, #7CB9E8, #9CD7F1)" : "lightcyan"} // Gradient background on hover
       p={10} // Padding for the whole card
     >
-
-      <Image src={image} boxSize="200px" objectFit='cover' borderRadius={20} /> 
-      <VStack align="start" spacing={10} width="100%">
-        <Heading fontSize="25px" textAlign="center">{title}</Heading>
-        <Heading fontSize="16px" textAlign="center">{time}</Heading> 
-        <Text fontSize="14px" textAlign="left">{description}</Text> 
+    <VStack>
+      <HStack>  
+        <Image src={image} boxSize="200px" objectFit='cover' borderRadius={20} /> 
+          <VStack marginTop={5} marginBottom={5} marginRight={5} marginLeft={5}>
+            <Heading fontSize="25px" textAlign="center">{title}</Heading>
+            <Heading fontSize="16px" textAlign="center">{time}</Heading> 
+            <Text fontSize="14px" textAlign="left">{description}</Text> 
+          </VStack>
+        </HStack>
       </VStack>
     </HStack>
   );

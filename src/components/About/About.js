@@ -45,8 +45,8 @@ const styles = {
         alignItems: "center", // Align items vertically
         paddingTop: '50px', // Add some padding at the top
         position: "relative",
-        // overflowY: "auto", // Allow the container to scroll vertically if content overflows
-        boxSizing: "border-box", // Ensure padding is included in the height calculation
+        overflowY: "auto", // Allow the container to scroll vertically if content overflows
+        // boxSizing: "border-box", // Ensure padding is included in the height calculation
     },
     content: {
         display: "flex",
