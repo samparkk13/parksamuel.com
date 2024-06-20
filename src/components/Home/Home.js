@@ -27,14 +27,15 @@ const Home = () => {
 
 const styles = {
   container: {
-      backgroundColor: "lightblue",
-      width: "100vw",
-      height: "100vh",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      paddingTop: "0px",
-      position: "relative",
+    backgroundColor: "lightblue",
+    width: "100vw",
+    height: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    paddingTop: "0px",
+    position: "relative",
+    
   },
   heading: {
     fontSize: "50px",
@@ -60,3 +61,4 @@ const styles = {
 }
 
 export default Home;
+

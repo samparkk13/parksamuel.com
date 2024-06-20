@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
+import { VStack } from "@chakra-ui/react";
 
 import {
   BrowserRouter as Router,
@@ -28,21 +29,27 @@ function ScrollToTop() {
 function App() {
 
   return (
-    
-    <Router>
-      <ScrollToTop />
+    <div>
+      <Navbar />
 
-      <div className="App" >
-        <Navbar />
-        <Routes>
-          <Route path = "/" element = {<Home />} />
-          <Route path = "/about" element = {<About />} />
-          <Route path = "/blog" element = {<Blog />} />
-          <Route path = "/cornelleads" element = {<CornellEADS />} />
-        </Routes>
-      </div>
+      <VStack>
+        <Router>
+          <ScrollToTop />
+
+          <div className="App" >
+            
+            <Routes>
+              <Route path = "/" element = {<Home />} />
+              <Route path = "/about" element = {<About />} />
+              <Route path = "/blog" element = {<Blog />} />
+              <Route path = "/cornelleads" element = {<CornellEADS />} />
+            </Routes>
+          </div>
+          
+        </Router>
+      </VStack>
       <Footer />
-    </Router>
+    </div>
   );
 }
 
