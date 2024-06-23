@@ -17,7 +17,7 @@ const BlogCard = ({ title, time, description, image, path }) => {
       borderRadius={12}
       boxShadow={isOnBlock ? "md" : "sm"} // Apply box shadow on hover
       textColor="black"
-      width={"1000px"}   // Adjusted width
+      width={"95%"}   // Adjusted width
       background={isOnBlock ? "linear-gradient(to right, #7CB9E8, #9CD7F1)" : "lightcyan"} // Gradient background on hover
       p={10} // Padding for the whole card
     >

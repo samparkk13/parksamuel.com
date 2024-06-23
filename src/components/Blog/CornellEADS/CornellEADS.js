@@ -4,7 +4,7 @@ const CornellEADS = () => {
     return ( 
         <div style={styles.container}>
             <div style={styles.text}>
-                First blog coming soon!
+                Blog coming soon!
                 <br />In the meanwhile, you can read this debrief letter!
             </div>
             <a href="files/DebriefLetter.pdf" target="_blank" rel="noopener noreferrer" style={styles.link}>
