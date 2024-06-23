@@ -2,15 +2,15 @@
     {
         "title":"Recapping my FIRST MEMORIES at Cornell",
         "time":"June 21, 2024",
-        "description": "The story of how I met some really cool friends and the memories that were made throughout my first month at Cornell. ",
-        "image": "images/FreshmanBlogCoverPic.jpg",
+        "description": "The story of how I met some really cool people and the memories that were made throughout my first month at Cornell. ",
+        "image": "images/BlogImages/FreshmanBlogCoverPic.jpg",
         "path": "/first-month-Cornell"
     }, 
     {
         "title":"About my week at Mexico",
         "time":"June 17, 2024",
         "description": "Thank you for your support throughout my mission trip. Here is my debrief of EADS 2024 to give you all an update. Happy reading!",
-        "image": "images/cornelleads4.jpg",
+        "image": "images/BlogImages/CornellEADS/cornelleads4.jpg",
         "path": "/cornelleads"
     }
     
