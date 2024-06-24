@@ -17,6 +17,8 @@ import {
 import CornellEADS from "./components/Blog/CornellEADS/CornellEADS";
 import FirstMonthBlog from "./components/Blog/FirstMonthCornell/FirstMonthBlog";
 
+import FirstMonthBlogDraft from "./components/Blog/FirstMonthCornell/FirstMonthBlogDraft";
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -47,6 +49,8 @@ function App() {
               <Route path = "/cornelleads" element = {<CornellEADS />} />
               <Route path = "/first-month-Cornell" element = {<FirstMonthBlog />} />
               <Route path="*" element={<NotFound />} />
+
+              <Route path = "/first-month-Cornell-draft" element = {<FirstMonthBlogDraft />} />
             </Routes>
           </div>
           
