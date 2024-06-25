@@ -50,12 +50,13 @@ const FirstMonthBlogDraft = () => {
                     alt="Bye Family"  
                     mt="20px" 
                     w={{ base: "350px", sm: "80%" }}  
-                    minWidth="350px" 
+                    minWidth="150px" 
+                    maxW="80%"
                     h="auto" 
                     display="block"
                     mx="auto"
                     borderRadius="15px"
-                    maxW="80%"
+                    
                     
                 />
                 <Text mt="4" fontStyle="italic">My family sends me off</Text>
@@ -108,7 +109,7 @@ const FirstMonthBlogDraft = () => {
                     alt="first text when I met Robin at Barton"  
                     mt="20px" 
                     w={{ base: "350px", sm: "55%" }}  
-                    minWidth="250px" 
+                    minWidth="150px" 
                     h="auto" 
                     display="block"
                     mx = "auto"
@@ -138,7 +139,7 @@ const FirstMonthBlogDraft = () => {
                         alt="my first text to Robin"
                         mt="20px" 
                         w={{ base: "350px", sm: "50%" }}
-                        minWidth="250px"   
+                        minWidth="150px"   
                         h="auto" 
                         display="block"
                         mx = "auto"
@@ -160,12 +161,13 @@ const FirstMonthBlogDraft = () => {
                         alt="First Meal with Robin"
                         mt="20px" 
                         w={{ base: "350px", sm: "70%" }}
-                        minWidth="250px"  
+                        minWidth="150px"  
+                        maxW="70%"
                         h="auto" 
                         display="block"
                         mx = "auto"
                         borderRadius= "15px"
-                        maxW="55%"
+                        
                     />
                     <Text mt="4" fontStyle="italic">we don't know the dude behind us</Text>
                 </Box>
