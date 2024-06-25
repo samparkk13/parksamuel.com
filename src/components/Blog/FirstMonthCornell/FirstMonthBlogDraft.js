@@ -20,12 +20,8 @@ const FirstMonthBlogDraft = () => {
                 It felt like a journey, and it's hard to believe that I still have two years ahead of me. 
                 <br />
                 <br /> 
-                But I wanted to take a moment and relive the beginning of my freshman year, perhaps in the form of this blog.
-                <br />
-                <br /> 
-                Throughout this entry, you’ll get to see how Cornell became my second home. 
-                Or even my first home, because I was homesick when I was back home with my family.
-
+                Throughout this blog, you’ll come to see how Cornell became my second home. 
+                Actually, my first home as I found myself getting homesick when I was back home with my family.
 
                 <br />
                 <br />
@@ -33,12 +29,17 @@ const FirstMonthBlogDraft = () => {
                 <br />
                 <br />
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Wednesday, August 17th: "The Beginning"
+                    Wednesday, August 17th: The Beginning
                 </Text>
                 <br />
-                <br /> I arrive at Cornell with a mix of emotions. Excited to move in and meet new people, but also nervous that I'll feel lonely. 
-                <br />  
-                Happy that I am free from my parents, but scared because I am free from my parents.
+                <br /> 
+                I arrive at Cornell with a mix of emotions. 
+                <br /> 
+                <br />   
+                Excited to move in and meet new people but also nervous that I'll feel lonely. 
+                <br /> 
+                <br />   
+                Happy that I'm free from my parents but scared because I'm free from my parents.
                 <br />
                 <br />
                 After saying my final goodbyes to my family, this journey called college began. 
@@ -63,10 +64,10 @@ const FirstMonthBlogDraft = () => {
             </Box>
             < br/>
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                I remember vividly walking my first steps as a student on campus, looking for some new and familiar faces, 
-                some other Korean students, but mostly with my roommate and long-time childhood friend, Shreyas.
+            I vividly remember walking my first steps as student on campus, looking for new and familiar faces, perhaps some other Korean students. 
+            Most of these steps were with my roommate and long-time childhood friend, Shreyas.
                 <br />
-                <br /> We shared many firsts at Cornell together. First person to talk to in Ithaca, first dining hall experience, first night at our dorm room.
+                <br /> We shared many firsts at Cornell together. First conversation in Ithaca, first dining hall experience, first night away from home in our dorm room.
                 
             </Box>
             <Box display="flex" justifyContent="center" alignItems="center" mt="20px" w="100%">
@@ -93,16 +94,16 @@ const FirstMonthBlogDraft = () => {
             < br/>
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 We didn't really know what to do or where to go, except to follow all the orientation events for first-year students. 
-                I felt like I was in a whole different world but at least we had each other. 
+                I felt like I was in a whole different world, but at least we had each other. 
                 <br />
                 <br />
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Thursday, August 18th: "The Beginning of a Cool Friendship"
+                    Thursday, August 18th: The Beginning of a Cool Friendship
                 </Text>
                 <br />
                 <br /> The next day, Cornell hosted a First-Year Festival at Barton Hall. 
                 This is where I met Robin. In our very brief conversation, we were able to introduce ourselves, 
-                talk briefly about our faith, and exchange phone numbers. 
+                talk about our faith, and exchange phone numbers. 
                 <Box mx="15%" textAlign="center">
                 <Image 
                     src="images/BlogImages/FirstMonthBlog/bartonText.jpg" 
@@ -129,10 +130,10 @@ const FirstMonthBlogDraft = () => {
                 <Text as="span" fontFamily="'Times New Roman', sans-serif" textDecoration="line-through">
                     handsome
                 </Text>{" "}
-                christian.
+                Christian.
                 <br/>
                 <br/>
-                Later that night, we decided to eat together at Morrison the next morning.
+                We decided to eat together at Morrison the next morning.
                 We had the following conversation below.
                 <Box mx="15%" textAlign="center">
                     <Image 
@@ -149,13 +150,9 @@ const FirstMonthBlogDraft = () => {
                     />
                     <Text mt="4" fontStyle="italic">Our first conversation</Text>
                 </Box>
+                
                 <br />
-                <br />
-                <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Friday, August 19th - Sunday, August 21st: "The Beginning with Emmaus Road"
-                </Text>
-                <br />
-                <br/> Just as we planned, we grabbed some breakfast at Morrison.
+                <br/> And just as we planned, we grabbed some breakfast at Morrison.
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/RobinSamFirstMeal.jpg"
@@ -170,8 +167,13 @@ const FirstMonthBlogDraft = () => {
                         borderRadius= "15px"
                         
                     />
-                    <Text mt="4" fontStyle="italic">we don't know the dude behind us</Text>
+                    <Text mt="4" fontStyle="italic">We don’t know the dude next to me</Text>
                 </Box>
+                <br />
+                <br />
+                <Text as="span" fontSize="1.25em" fontWeight="bold">
+                    Friday, August 19th - Sunday, August 21st: The Beginning with Emmaus Road
+                </Text>
                 <br />
                 <br />
                 I had a friend that I knew from back at home that was also at Cornell, Matt. 
@@ -253,7 +255,7 @@ const FirstMonthBlogDraft = () => {
                 <Text as="span" fontStyle="italic">Cornell</Text> "
             </Text> */}
             <Text as="span" fontSize="1.25em" fontWeight="bold">
-                Monday, August 22nd - Friday, August 26st: The Beginning (Actually)
+                Monday, August 22nd - Friday, August 26th: The Beginning (Actually)
             </Text>
 
             <br />
@@ -348,7 +350,7 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 <br/> 
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Saturday, August 27nd - Wednesday, August 31st: "The Beginning of Brotherhood"
+                    Saturday, August 27nd - Wednesday, August 31st: The Beginning of Brotherhood
                 </Text>
                 <br/>
                 <br/> Now into our second weekend at Cornell and after a weekend filled with meeting more new faces at ER, I remember meeting a fellow dark-skinned Asian, Yongjin.
@@ -360,7 +362,7 @@ const FirstMonthBlogDraft = () => {
             </Box>
             
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                We had fun in our own ways, such as hanging out, sitting on the slope and watching the sunset, and making TikTok videos.
+                We had fun in our own ways, such as hanging out, sitting on the slope and watching the sunset, and making TikTok videos. 
                 The nights were filled with conversations between the boys.
                 <Box mx="15%" textAlign="center">
                     <Image 
@@ -377,7 +379,17 @@ const FirstMonthBlogDraft = () => {
                     />
                     <Text mt="4" fontStyle="italic">One of our first hangouts together</Text>
                 </Box> 
+                <br/>
                 
+                <Box mx="auto" textAlign="center" w="40%" display="flex" flexDirection="column" alignItems="center">
+                    <Box borderRadius="15px" overflow="hidden" w="100%">
+                        <video width="100%" height="auto" controls>
+                            <source src="images/BlogImages/FirstMonthBlog/milttamJump.mp4" type="video/mp4" />
+                        </video>
+                    </Box>
+                    <Text mt="4" fontStyle="italic">Typical dude activities</Text>
+                </Box>
+
                 <br/> Meanwhile, our classes were getting more intense, and the deadlines for our first problem sets were rapidly approaching.
                 <br/>
                 <Box mx="15%" textAlign="center">
@@ -397,11 +409,11 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Thursday, September 1st - Saturday, September 14th: "The Beginning of Family"
+                    Thursday, September 1st - Saturday, September 14th: The Beginning of Cornell Family
                 </Text>
                 <br/>
                 <br/> As a new month turned and August slipped away, 
-                we realized that our small freshman hangout group was lacking one thing: sisters. 
+                we realized that our small freshman group was lacking one thing: sisters. 
                 Robin and I remembered two freshmen sisters that we interacted with during orientation weekend, Ellie and Erin. 
                 <br/>
                 <br/>We decided to reach out to Ellie over text together, as this was a new and tall task. 
@@ -438,7 +450,7 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">Another night, another Ganędagǫ</Text>
+                    <Text mt="4" fontStyle="italic">Another night, another hangout at Ganędagǫ</Text>
                 </Box>
                 <br/>
                 <br/>
@@ -461,7 +473,7 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <br/>
-                We grabbed meals together. We hung out afterwards. We spent some late nights studying or yapping. Making goofy tiktoks. Watching movies. Karaoke nights. 
+                We grabbed meals together. We hung out afterwards. We spent some late nights studying or yapping. Making goofy Tiktoks. Watching movies. Karaoke nights. 
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/brotherhoodKiss.jpg"
@@ -494,7 +506,13 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <br/>
-                This was just the beginning of the journey that we embarked on together. As my freshman year went on, our freshman group grew bigger and bigger.
+                This was just the beginning of the journey that we embarked on together. 
+                <br/>
+                <br/>
+                I’ll end this blog entry here, as writing about the memories made and the people met throughout my freshman year would make this one too long. 
+                <br/>
+                <br/>
+                But as my freshman year went on, our freshman group grew bigger and bigger.
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/freshmanClass.jpg"
@@ -508,14 +526,12 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">Freshman Class at ER Spring Retreat</Text>
+                    <Text mt="4" fontStyle="italic">Freshman Class at ER Spring Retreat 2023</Text>
                 </Box>
+                
                 <br/>
-                <br/>
-                I’ll end this blog entry here, as writing about the memories made and the people met throughout my freshman year would make this one too long. 
-                <br/>
-                <br/>There are things that are forgettable from my first month at Cornell, such as my hair (or freshman fifteen) and awkward interactions. 
-                But the unforgettable parts are the memories made along the way, each conversation I had, and the friendships that blossomed. 
+                <br/>There are some things that are forgettable from my first year at Cornell, such as the freshman fifteen and awkward interactions. 
+                But the unforgettable parts are the memories made along the way, the conversations I had, and the friendships that blossomed. 
                 <br/>
                 <br/>I realized that as this “friend group” began to grow closer together and in numbers throughout the year, 
                 we weren’t really a friend group. 
@@ -531,6 +547,13 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 -Samuel Park
                 <br/>
+                <br/>
+                <br/>
+                <footer class="small-footer-text">
+
+                    <p>Thank you for reading! And shoutout Racha for being my design consultant 😆.</p>
+                    {/* <p>© 2024 Samuel Park. All rights reserved.</p> */}
+                </footer>
             </Box>
             
 

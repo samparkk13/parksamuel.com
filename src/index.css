@@ -70,6 +70,10 @@ body {
   overflow-x: hidden;
 }
 
+/* FirstonthCornell Blog  */
+.small-footer-text p {
+  font-size: 10px; /* You can adjust the size as needed */
+}
 
 /* for some reason the styling for Home.js is broken */
 
