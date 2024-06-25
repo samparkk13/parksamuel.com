@@ -109,7 +109,7 @@ const FirstMonthBlogDraft = () => {
                     alt="first text when I met Robin at Barton"  
                     mt="20px" 
                     w={{ base: "350px", sm: "55%" }}  
-                    minWidth="250px" 
+                    minWidth="200px" 
                     maxW="55%"
                     h="auto" 
                     display="block"
@@ -140,7 +140,7 @@ const FirstMonthBlogDraft = () => {
                         alt="my first text to Robin"
                         mt="20px" 
                         w={{ base: "350px", sm: "50%" }}
-                        minWidth="250px"   
+                        minWidth="200px"   
                         h="auto" 
                         display="block"
                         mx = "auto"
@@ -185,8 +185,10 @@ const FirstMonthBlogDraft = () => {
                 <Image 
                     src="images/BlogImages/FirstMonthBlog/textMattLim.jpg"
                     alt="text Matt"
-                    mt="20px" 
-                    w="50%"  
+                    mt="20px"  
+                    w={{ base: "350px", sm: "50%" }}
+                    minWidth="200px"  
+                    maxW="50%"
                     h="auto" 
                     display="block"
                     mx = "auto"
