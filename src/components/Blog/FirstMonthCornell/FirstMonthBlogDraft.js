@@ -204,18 +204,22 @@ const FirstMonthBlogDraft = () => {
                     <Image 
                     src="images/BlogImages/FirstMonthBlog/oweekend2.jpg" 
                     alt="o-week"  
-                    w="100%"  
+                    w={{ base: "350px", sm: "100%" }}
+                    minWidth="200px"  
+                    maxW="100%"  
                     h="auto" 
                     display="block"
                     borderRadius="15px"
                     />
                 </Box>
-                <Box display="flex" flexDirection="column" ml="100px" > {/* Stack second and third images vertically */}
+                <Box display="flex" flexDirection="column" ml="0px" > {/* Stack second and third images vertically */}
                     <Box mx="5%" textAlign="center" w="80%">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/oweekend1.JPG" 
                         alt="o-week"  
-                        w="100%"  
+                        w={{ base: "350px", sm: "100%" }}
+                        minWidth="200px"  
+                        maxW="100%"  
                         h="auto" 
                         display="block"
                         borderRadius="15px"
@@ -225,7 +229,9 @@ const FirstMonthBlogDraft = () => {
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/oweekend3.JPG" 
                         alt="o-week"  
-                        w="100%"  
+                        w={{ base: "350px", sm: "100%" }}
+                        minWidth="200px"  
+                        maxW="100%"   
                         h="auto" 
                         display="block"
                         borderRadius="15px"
