@@ -50,7 +50,7 @@ const FirstMonthBlogDraft = () => {
                     alt="Bye Family"  
                     mt="20px" 
                     w={{ base: "350px", sm: "80%" }}  
-                    minWidth="150px" 
+                    minWidth="250px" 
                     maxW="80%"
                     h="auto" 
                     display="block"
@@ -205,7 +205,7 @@ const FirstMonthBlogDraft = () => {
                     src="images/BlogImages/FirstMonthBlog/oweekend2.jpg" 
                     alt="o-week"  
                     w={{ base: "350px", sm: "100%" }}
-                    minWidth="200px"  
+                    minWidth="175px"  
                     maxW="100%"  
                     h="auto" 
                     display="block"
@@ -218,7 +218,7 @@ const FirstMonthBlogDraft = () => {
                         src="images/BlogImages/FirstMonthBlog/oweekend1.JPG" 
                         alt="o-week"  
                         w={{ base: "350px", sm: "100%" }}
-                        minWidth="200px"  
+                        minWidth="175px"
                         maxW="100%"  
                         h="auto" 
                         display="block"
@@ -230,7 +230,7 @@ const FirstMonthBlogDraft = () => {
                         src="images/BlogImages/FirstMonthBlog/oweekend3.JPG" 
                         alt="o-week"  
                         w={{ base: "350px", sm: "100%" }}
-                        minWidth="200px"  
+                        minWidth="175px"
                         maxW="100%"   
                         h="auto" 
                         display="block"
