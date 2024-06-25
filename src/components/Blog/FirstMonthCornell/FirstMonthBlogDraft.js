@@ -43,16 +43,20 @@ const FirstMonthBlogDraft = () => {
                 <br />
                 After saying my final goodbyes to my family, this journey called college began. 
             </Box>
+            
             <Box mx="15%" textAlign="center">
                 <Image 
                     src="images/BlogImages/FirstMonthBlog/Movein.jpeg" 
                     alt="Bye Family"  
                     mt="20px" 
-                    w="55%"  
+                    w={{ base: "350px", sm: "80%" }}  
+                    minWidth="350px" 
                     h="auto" 
                     display="block"
-                    mx = "auto"
-                    borderRadius= "15px"
+                    mx="auto"
+                    borderRadius="15px"
+                    maxW="80%"
+                    
                 />
                 <Text mt="4" fontStyle="italic">My family sends me off</Text>
             </Box>
@@ -103,11 +107,13 @@ const FirstMonthBlogDraft = () => {
                     src="images/BlogImages/FirstMonthBlog/bartonText.jpg" 
                     alt="first text when I met Robin at Barton"  
                     mt="20px" 
-                    w="55%"  
+                    w={{ base: "350px", sm: "55%" }}  
+                    minWidth="250px" 
                     h="auto" 
                     display="block"
                     mx = "auto"
                     borderRadius= "15px"
+                    maxW="55%"
                 />
                 <Text mt="4" fontStyle="italic">We exchanged phone numbers</Text>
             </Box>
@@ -131,11 +137,13 @@ const FirstMonthBlogDraft = () => {
                         src="images/BlogImages/FirstMonthBlog/firstTextRobin.jpg"
                         alt="my first text to Robin"
                         mt="20px" 
-                        w="50%"  
+                        w={{ base: "350px", sm: "50%" }}
+                        minWidth="250px"   
                         h="auto" 
                         display="block"
                         mx = "auto"
                         borderRadius= "15px"
+                        maxW="55%"
                     />
                     <Text mt="4" fontStyle="italic">Our first conversation</Text>
                 </Box>
@@ -151,11 +159,13 @@ const FirstMonthBlogDraft = () => {
                         src="images/BlogImages/FirstMonthBlog/RobinSamFirstMeal.jpg"
                         alt="First Meal with Robin"
                         mt="20px" 
-                        w="50%"  
+                        w={{ base: "350px", sm: "70%" }}
+                        minWidth="250px"  
                         h="auto" 
                         display="block"
                         mx = "auto"
                         borderRadius= "15px"
+                        maxW="55%"
                     />
                     <Text mt="4" fontStyle="italic">we don't know the dude behind us</Text>
                 </Box>
@@ -469,7 +479,7 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 I’ll end this blog entry here, as writing about the memories made and the people met throughout my freshman year would make this one too long. 
                 <br/>
-                <br/>There are things that are forgettable from my first month at Cornell, such as my hair and awkward interactions. 
+                <br/>There are things that are forgettable from my first month at Cornell, such as my hair (or freshman fifteen) and awkward interactions. 
                 But the unforgettable parts are the memories made along the way, each conversation I had, and the friendships that blossomed. 
                 <br/>
                 <br/>I realized that as this “friend group” began to grow closer together and in numbers throughout the year, 
