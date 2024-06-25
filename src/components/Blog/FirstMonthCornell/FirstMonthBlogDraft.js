@@ -306,7 +306,7 @@ const FirstMonthBlogDraft = () => {
                     mt="20px" 
                     w={{ base: "350px", sm: "50%" }}
                     minWidth="250px"  
-                    maxW="=50%"
+                    maxW="50%"
                     h="auto" 
                     display="block"
                     mx = "auto"
