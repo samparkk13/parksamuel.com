@@ -3,7 +3,7 @@ import { Heading, Box, Image, Text } from "@chakra-ui/react";
 const FirstMonthBlogDraft = () => {
     return (
         
-        <Box bg="lightblue" w="100vw" minH="100vh" overflowY="auto" p={4} d="flex" flexDirection="column" alignItems="center">
+        <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
             <br />
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 The Beginning (of Many Beginnings)
@@ -110,11 +110,12 @@ const FirstMonthBlogDraft = () => {
                     mt="20px" 
                     w={{ base: "350px", sm: "55%" }}  
                     minWidth="250px" 
+                    maxW="55%"
                     h="auto" 
                     display="block"
                     mx = "auto"
                     borderRadius= "15px"
-                    maxW="55%"
+                    
                 />
                 <Text mt="4" fontStyle="italic">We exchanged phone numbers</Text>
             </Box>
