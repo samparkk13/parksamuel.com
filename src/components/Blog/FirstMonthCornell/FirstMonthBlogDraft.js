@@ -109,7 +109,7 @@ const FirstMonthBlogDraft = () => {
                     alt="first text when I met Robin at Barton"  
                     mt="20px" 
                     w={{ base: "350px", sm: "55%" }}  
-                    minWidth="150px" 
+                    minWidth="250px" 
                     h="auto" 
                     display="block"
                     mx = "auto"
@@ -139,7 +139,7 @@ const FirstMonthBlogDraft = () => {
                         alt="my first text to Robin"
                         mt="20px" 
                         w={{ base: "350px", sm: "50%" }}
-                        minWidth="150px"   
+                        minWidth="250px"   
                         h="auto" 
                         display="block"
                         mx = "auto"
@@ -161,7 +161,7 @@ const FirstMonthBlogDraft = () => {
                         alt="First Meal with Robin"
                         mt="20px" 
                         w={{ base: "350px", sm: "70%" }}
-                        minWidth="150px"  
+                        minWidth="200px"  
                         maxW="70%"
                         h="auto" 
                         display="block"
