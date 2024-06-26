@@ -98,11 +98,18 @@ const FirstMonthBlogDraft = () => {
                 <br />
                 <br />
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Thursday, August 18th: The Beginning of a Cool Friendship
+                    Thursday, August 18th - Friday, August 19th: The Beginning of a Cool Friendship
                 </Text>
                 <br />
-                <br /> The next day, Cornell hosted a First-Year Festival at Barton Hall. 
-                This is where I met Robin. In our very brief conversation, we were able to introduce ourselves, 
+                <br /> 
+                The next day, Cornell hosted a First-Year Festival at Barton Hall. 
+                This festival gave me the opportunity to play games, win prizes, and meet other first-year students. 
+                <br />
+                <br /> 
+                This is where I met Robin. 
+                <br />
+                <br /> 
+                In our very brief conversation, we were able to introduce ourselves, 
                 talk about our faith, and exchange phone numbers. 
                 <Box mx="15%" textAlign="center">
                 <Image 
@@ -138,7 +145,7 @@ const FirstMonthBlogDraft = () => {
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/firstTextRobin.jpg"
-                        alt="my first text to Robin"
+                        alt="my first conversation with Robin"
                         mt="20px" 
                         w={{ base: "350px", sm: "50%" }}
                         minWidth="200px"   
@@ -148,7 +155,7 @@ const FirstMonthBlogDraft = () => {
                         borderRadius= "15px"
                         maxW="55%"
                     />
-                    <Text mt="4" fontStyle="italic">Our first conversation</Text>
+                    <Text mt="4" fontStyle="italic">We had our first conversation</Text>
                 </Box>
                 
                 <br />
@@ -322,28 +329,33 @@ const FirstMonthBlogDraft = () => {
 
                   
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                We also got close and hung out a lot with these two cool sophomores, Esther and Michelle. 
+                We also got close and hung out a lot with these two cool sophomores from ER, Esther and Michelle. 
             </Box>
             <Box mx="15%" textAlign="center">
                 <Image 
                     src="images/BlogImages/FirstMonthBlog/EstherMichelle.jpg" 
                     alt="Esther & Michelle"  
                     mt="20px" 
-                    w={{ base: "350px", sm: "55%" }}
+                    w={{ base: "350px", sm: "65%" }}
                     minWidth="250px"  
-                    maxW="55%"
+                    maxW="65%"
                     h="auto" 
                     display="block"
                     mx = "auto"
                     borderRadius= "15px"
                 />
-                <Text mt="4" fontStyle="italic">Pictured from left to right: me, Mich, Esther, and Robin again in Ganędagǫ Hall</Text>
+                <Text mt="4" fontStyle="italic">With the sophomores in a Ganędagǫ lounge</Text>
             </Box>
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                They helped us make Cornell feel more like home. 
                 <br/>
                 <br/>
-                However, after a couple of nights, we noticed that these sophomores started to tire pretty easily. 
+                They even invited us a few times to hangout in their double at Ganędagǫ.
+                <br/>
+                <br/>
+                I think we were invited...
+                <br/>
+                <br/>
+                But regardless, after a couple of nights, we noticed that these sophomores started to tire pretty easily. 
                 Maybe it was the sophomore slump? (Yes, sophomore slump is real.)
                 <br/>
                 <br/> Towards the end of our first week, we started to wonder, where are the other freshmen from ER at?? 
@@ -362,7 +374,7 @@ const FirstMonthBlogDraft = () => {
             </Box>
             
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                We had fun in our own ways, such as hanging out, sitting on the slope and watching the sunset, and making TikTok videos. 
+                We had fun by hanging out, sitting on the slope, watching the sunset, and finding other ways to entertain ourselves on campus.
                 The nights were filled with conversations between the boys.
                 <Box mx="15%" textAlign="center">
                     <Image 
@@ -377,7 +389,7 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">One of our first hangouts together</Text>
+                    <Text mt="4" fontStyle="italic">One of our first moments together</Text>
                 </Box> 
                 <br/>
                 
@@ -387,7 +399,7 @@ const FirstMonthBlogDraft = () => {
                             <source src="images/BlogImages/FirstMonthBlog/milttamJump.mp4" type="video/mp4" />
                         </video>
                     </Box>
-                    <Text mt="4" fontStyle="italic">Typical dude activities</Text>
+                    <Text mt="4" fontStyle="italic">Peak entertainment</Text>
                 </Box>
 
                 <br/> Meanwhile, our classes were getting more intense, and the deadlines for our first problem sets were rapidly approaching.
@@ -405,16 +417,16 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">Studying</Text>
+                    <Text mt="4" fontStyle="italic">Not very entertaining</Text>
                 </Box>
                 <br/>
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Thursday, September 1st - Saturday, September 14th: The Beginning of Cornell Family
+                    Thursday, September 1st - Saturday, September 17th: The Beginning of Cornell Family
                 </Text>
                 <br/>
                 <br/> As a new month turned and August slipped away, 
                 we realized that our small freshman group was lacking one thing: sisters. 
-                Robin and I remembered two freshmen sisters that we interacted with during orientation weekend, Ellie and Erin. 
+                Robin and I remembered two freshmen sisters that we met during orientation weekend, Ellie and Erin. 
                 <br/>
                 <br/>We decided to reach out to Ellie over text together, as this was a new and tall task. 
                 We then had the conversation on text below.  
@@ -432,7 +444,7 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">"another dude" = Robin</Text>
+                    <Text mt="4" fontStyle="italic">first conversation with Ellie</Text>
                 </Box>
                 <br/>
                 <br/>
@@ -450,7 +462,7 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">Another night, another hangout at Ganędagǫ</Text>
+                    <Text mt="4" fontStyle="italic">One hour later...</Text>
                 </Box>
                 <br/>
                 <br/>
@@ -469,7 +481,7 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">Our first meal together at 4 Seasons</Text>
+                    <Text mt="4" fontStyle="italic">09/04 - Our first meal together at 4 Seasons</Text>
                 </Box>
                 <br/>
                 <br/>
@@ -487,7 +499,7 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">Our first selfie</Text>
+                    <Text mt="4" fontStyle="italic">09/09 - Our first selfie</Text>
                 </Box>
                 <Box mx="15%" textAlign="center">
                     <Image 
@@ -502,7 +514,25 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">At Robin’s single at Clara Dickson Hall</Text>
+                    <Text mt="4" fontStyle="italic">09/11 - And first group selfie</Text>
+                </Box>
+                <br/>
+                <br/>
+                And coincidentally, the day that marked my first month at Cornell was on the day that ER went apple-picking. 
+                <Box mx="15%" textAlign="center">
+                    <Image 
+                        src="images/BlogImages/FirstMonthBlog/applePicking.jpg"
+                        alt="apple picking"
+                        mt="20px" 
+                        w={{ base: "350px", sm: "70%" }}
+                        minWidth="200px"  
+                        maxW="70%" 
+                        h="auto" 
+                        display="block"
+                        mx = "auto"
+                        borderRadius= "15px"
+                    />
+                    <Text mt="4" fontStyle="italic">09/17 - Apple picking </Text>
                 </Box>
                 <br/>
                 <br/>
@@ -519,7 +549,7 @@ const FirstMonthBlogDraft = () => {
                         alt="freshman class at ER spring Retreat"
                         mt="20px" 
                         w={{ base: "350px", sm: "70%" }}
-                        minWidth="250px"  
+                        minWidth="200px"  
                         maxW="70%" 
                         h="auto" 
                         display="block"
@@ -551,11 +581,11 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 <footer class="small-footer-text">
 
-                    <p>Thank you for reading! And shoutout Racha for being my design consultant 😆.</p>
+                    <p>Thank you for reading! Stay tuned for more blogs like this!</p>
+                    <p>And shoutout Racha for being my blog consultant 😆.</p>
                     {/* <p>© 2024 Samuel Park. All rights reserved.</p> */}
                 </footer>
-            </Box>
-            
+            </Box>            
 
         </Box>
     );
