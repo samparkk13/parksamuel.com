@@ -38,7 +38,7 @@ const FirstMonthBlogDraft = () => {
                 <br />   
                 Excited to move in and meet new people but also nervous that I'll feel lonely. 
                 <br /> 
-                <br />   
+
                 Happy that I'm free from my parents but scared because I'm free from my parents.
                 <br />
                 <br />
@@ -314,7 +314,7 @@ const FirstMonthBlogDraft = () => {
                     alt="debrief"
                     mt="20px" 
                     w={{ base: "350px", sm: "50%" }}
-                    minWidth="250px"  
+                    minWidth="200px"  
                     maxW="50%"
                     h="auto" 
                     display="block"
@@ -382,7 +382,7 @@ const FirstMonthBlogDraft = () => {
                         alt="brothers at the slope"
                         mt="20px" 
                         w={{ base: "350px", sm: "60%" }}
-                        minWidth="200px"  
+                        minWidth="185px"  
                         maxW="60%"
                         h="auto" 
                         display="block"
@@ -410,14 +410,14 @@ const FirstMonthBlogDraft = () => {
                         alt="studying at dorm lounge"
                         mt="20px" 
                         w={{ base: "350px", sm: "70%" }}
-                        minWidth="200px"  
+                        minWidth="250px"  
                         maxW="70%"
                         h="auto" 
                         display="block"
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">Not very entertaining</Text>
+                    <Text mt="4" fontStyle="italic">No entertainment</Text>
                 </Box>
                 <br/>
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
@@ -455,7 +455,7 @@ const FirstMonthBlogDraft = () => {
                         alt="text Ellie"
                         mt="20px" 
                         w={{ base: "350px", sm: "100%" }}
-                        minWidth="200px"  
+                        minWidth="190px"  
                         maxW="100%"
                         h="auto" 
                         display="block"
@@ -518,7 +518,7 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <br/>
-                And coincidentally, the day that marked my first month at Cornell was on the day that ER went apple-picking. 
+                And coincidentally, the day that marked my first month at Cornell was the day that ER went apple-picking. 
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/applePicking.jpg"
@@ -581,8 +581,7 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 <footer class="small-footer-text">
 
-                    <p>Thank you for reading! Stay tuned for more blogs like this!</p>
-                    <p>And shoutout Racha for being my blog consultant 😆.</p>
+                    <p>Thank you for reading! Stay tuned for more blogs like this! And shoutout Racha for being my blog consultant 😆.</p>
                     {/* <p>© 2024 Samuel Park. All rights reserved.</p> */}
                 </footer>
             </Box>            
