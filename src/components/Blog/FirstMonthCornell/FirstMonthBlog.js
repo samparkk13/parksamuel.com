@@ -98,7 +98,7 @@ const FirstMonthBlogDraft = () => {
                 <br />
                 <br />
                 <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Thursday, August 18th - Friday, August 19th: The Beginning of a Cool Friendship
+                    Thursday, August 18th - Friday, August 19th: The Beginning of a Lasting Friendship
                 </Text>
                 <br />
                 <br /> 
@@ -128,7 +128,7 @@ const FirstMonthBlogDraft = () => {
                 <Text mt="4" fontStyle="italic">We exchanged phone numbers</Text>
             </Box>
                 <br />
-                <br /> Little did we know, that interaction started a pretty cool friendship, 
+                <br /> Little did we know, that interaction started a lasting friendship, 
                 and we clicked instantly in a lot of ways. The best part was, he was also{" "}
                 <Text as="span" fontFamily="'Times New Roman', sans-serif" textDecoration="line-through">
                     korean
@@ -341,7 +341,7 @@ const FirstMonthBlogDraft = () => {
                         alt="at Texas Roadhouse with Jisoo and sophomores"  
                         mt="20px" 
                         w={{ base: "350px", sm: "70%" }}
-                        minWidth="250px"  
+                        minWidth="200px"  
                         maxW="70%"
                         h="auto" 
                         display="block"
@@ -433,7 +433,7 @@ const FirstMonthBlogDraft = () => {
                         alt="studying at dorm lounge"
                         mt="20px" 
                         w={{ base: "350px", sm: "70%" }}
-                        minWidth="250px"  
+                        minWidth="200px"  
                         maxW="70%"
                         h="auto" 
                         display="block"
