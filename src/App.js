@@ -47,7 +47,7 @@ function App() {
               <Route path = "/about" element = {<About />} />
               <Route path = "/blog" element = {<Blog />} />
               <Route path = "/cornelleads" element = {<CornellEADS />} />
-              <Route path = "/first-month-Cornell" element = {<FirstMonthBlog />} />
+              <Route path = "/CornellBeginnings" element = {<FirstMonthBlog />} />
               <Route path="*" element={<NotFound />} />
 
             </Routes>
