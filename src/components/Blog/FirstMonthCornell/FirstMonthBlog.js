@@ -1,4 +1,4 @@
-import { Heading, Box, Image, Text } from "@chakra-ui/react";
+import { Heading, Box, Image, Text, Divider} from "@chakra-ui/react";
 
 const FirstMonthBlogDraft = () => {
     return (
@@ -64,7 +64,7 @@ const FirstMonthBlogDraft = () => {
             </Box>
             < br/>
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-            I vividly remember walking my first steps as student on campus, looking for new and familiar faces, perhaps some other Korean students. 
+            I vividly remember walking my first steps as a student on campus, looking for new and familiar faces, perhaps some other Korean students. 
             Most of these steps were with my roommate and long-time childhood friend, Shreyas.
                 <br />
                 <br /> We shared many firsts at Cornell together. First conversation in Ithaca, first dining hall experience, first night away from home in our dorm room.
@@ -116,9 +116,9 @@ const FirstMonthBlogDraft = () => {
                     src="images/BlogImages/FirstMonthBlog/bartonText.jpg" 
                     alt="first text when I met Robin at Barton"  
                     mt="20px" 
-                    w={{ base: "350px", sm: "55%" }}  
+                    w={{ base: "350px", sm: "70%" }}  
                     minWidth="200px" 
-                    maxW="55%"
+                    maxW="70%"
                     h="auto" 
                     display="block"
                     mx = "auto"
@@ -330,29 +330,48 @@ const FirstMonthBlogDraft = () => {
                   
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 We also got close and hung out a lot with these two cool sophomores from ER, Esther and Michelle. 
-            </Box>
-            <Box mx="15%" textAlign="center">
+                <br/>
+                <br/>
+
+                Including our first Texas Roadhouse experience. 
+                
+                <Box mx="15%" textAlign="center">
+                    <Image 
+                        src="images/BlogImages/FirstMonthBlog/texasRoadhouseJisoo.jpg" 
+                        alt="at Texas Roadhouse with Jisoo and sophomores"  
+                        mt="20px" 
+                        w={{ base: "350px", sm: "70%" }}
+                        minWidth="250px"  
+                        maxW="70%"
+                        h="auto" 
+                        display="block"
+                        mx = "auto"
+                        borderRadius= "15px"
+                    />
+                    <Text mt="4" fontStyle="italic">Jisoo (bottom-right) drove us</Text>
+                </Box>
+                <br/>
+                <br/>
+                They made Cornell feel a bit more like home.
+                They even invited us a few times to hangout in their double at Ganędagǫ.
+                <br/>
+                <br/>
+                I think we were invited...
+                <Box mx="15%" textAlign="center">
                 <Image 
-                    src="images/BlogImages/FirstMonthBlog/EstherMichelle.jpg" 
-                    alt="Esther & Michelle"  
+                    src="images/BlogImages/FirstMonthBlog/withMichigan.jpg"
+                    alt="with Michelle aka Michigan"
                     mt="20px" 
-                    w={{ base: "350px", sm: "65%" }}
-                    minWidth="250px"  
-                    maxW="65%"
+                    w={{ base: "350px", sm: "75%" }}
+                    minWidth="200px"  
+                    maxW="75%"
                     h="auto" 
                     display="block"
                     mx = "auto"
                     borderRadius= "15px"
                 />
-                <Text mt="4" fontStyle="italic">With the sophomores in a Ganędagǫ lounge</Text>
+                <Text mt="4" fontStyle="italic">We liked to call Michelle "Mich" or "Michl" or "Michigan"</Text>
             </Box>
-            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                <br/>
-                <br/>
-                They even invited us a few times to hangout in their double at Ganędagǫ.
-                <br/>
-                <br/>
-                I think we were invited...
                 <br/>
                 <br/>
                 But regardless, after a couple of nights, we noticed that these sophomores started to tire pretty easily. 
@@ -367,15 +386,8 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 <br/> Now into our second weekend at Cornell and after a weekend filled with meeting more new faces at ER, I remember meeting a fellow dark-skinned Asian, Yongjin.
                 <br/>
-                <br/> Insert Yongjin, Matt, Robin, and I together, and now we had a brotherhood.
-                <br/>
-                <br/> Or the beginnings of one.
-            
-            </Box>
-            
-            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                We had fun by hanging out, sitting on the slope, watching the sunset, and finding other ways to entertain ourselves on campus.
-                The nights were filled with conversations between the boys.
+                <br/> 
+                Insert Yongjin, Matt, Robin, and I together. 
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/brotherhoodSlope.jpg" 
@@ -392,6 +404,16 @@ const FirstMonthBlogDraft = () => {
                     <Text mt="4" fontStyle="italic">One of our first moments together</Text>
                 </Box> 
                 <br/>
+                <br/> 
+                Now we had a brotherhood. Or the beginnings of one.
+            
+            </Box>
+            
+            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                We had fun by hanging out, sitting on the slope, watching the sunset, and finding other ways to entertain ourselves on campus.
+                The nights were filled with conversations between the boys.
+                <br/>
+                <br/> 
                 
                 <Box mx="auto" textAlign="center" w="40%" display="flex" flexDirection="column" alignItems="center">
                     <Box borderRadius="15px" overflow="hidden" w="100%">
@@ -401,6 +423,7 @@ const FirstMonthBlogDraft = () => {
                     </Box>
                     <Text mt="4" fontStyle="italic">Peak entertainment</Text>
                 </Box>
+                <br/>
 
                 <br/> Meanwhile, our classes were getting more intense, and the deadlines for our first problem sets were rapidly approaching.
                 <br/>
@@ -466,7 +489,7 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <br/>
-                Throughout the next few days, we spent more time with Ellie and Erin. 
+                Throughout the next few days, we spent more time with Ellie and Erin. It started by grabbing meals together.
                 
                 <Box mx="15%" textAlign="center">
                     <Image 
@@ -485,7 +508,7 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <br/>
-                We grabbed meals together. We hung out afterwards. We spent some late nights studying or yapping. Making goofy Tiktoks. Watching movies. Karaoke nights. 
+                Then we hung out afterwards. We spent some late nights studying or yapping. Making goofy Tiktoks. Watching movies. Karaoke nights. 
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/brotherhoodKiss.jpg"
@@ -518,7 +541,13 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <br/>
+                As the weeks went on, we spent more and more time together, growing closer with each passing day.
+                <br/>
+                <br/>
                 And coincidentally, the day that marked my first month at Cornell was the day that ER went apple-picking. 
+                <br/>
+                <br/>
+                It was a fun outing when our church visited a nearby farm to pick delicious, ripe apples.
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/applePicking.jpg"
@@ -532,16 +561,27 @@ const FirstMonthBlogDraft = () => {
                         mx = "auto"
                         borderRadius= "15px"
                     />
-                    <Text mt="4" fontStyle="italic">09/17 - Apple picking </Text>
+                    <Text mt="4" fontStyle="italic">09/17 - Holding ripe apples with Diddy (in crutches) </Text>
+                </Box>
+
+                <Box textAlign="center" position="relative" mt={50} >
+                    <Divider borderColor="black" borderStyle="dotted" borderWidth="1px" />
+                    <Text 
+                        position="absolute" 
+                        top="50%" 
+                        left="50%" 
+                        transform="translate(-50%, -50%)" 
+                        bg="lightblue" 
+                        px={2} 
+                        color="black"
+                    >
+                        CUT
+                    </Text>
                 </Box>
                 <br/>
                 <br/>
-                This was just the beginning of the journey that we embarked on together. 
-                <br/>
-                <br/>
                 I’ll end this blog entry here, as writing about the memories made and the people met throughout my freshman year would make this one too long. 
-                <br/>
-                <br/>
+
                 But as my freshman year went on, our freshman group grew bigger and bigger.
                 <Box mx="15%" textAlign="center">
                     <Image 
@@ -559,6 +599,7 @@ const FirstMonthBlogDraft = () => {
                     <Text mt="4" fontStyle="italic">Freshman Class at ER Spring Retreat 2023</Text>
                 </Box>
                 
+                
                 <br/>
                 <br/>There are some things that are forgettable from my first year at Cornell, such as the freshman fifteen and awkward interactions. 
                 But the unforgettable parts are the memories made along the way, the conversations I had, and the friendships that blossomed. 
@@ -568,10 +609,10 @@ const FirstMonthBlogDraft = () => {
                 We were all brothers and sisters with a heart of curiosity, kindness, and most importantly, a mustard seed of faith. 
                 <br/>
                 <br/>My freshman year was marked by so many more memories and people that a short entry could never capture in its entirety. 
-                But taking a glance back, it was fun making my first memories at Cornell with this group. 
+                But taking a glance back, it was fun making my first memories at Cornell with this bunch. 
                 <br/>
                 <br/>
-                Seeing us all running this race together and now soon-to-be upperclassmen is something to look forward to!
+                Seeing us all running this race together and now being upperclassmen is something I look forward to!
                 <br/>
                 <br/>
                 <br/>

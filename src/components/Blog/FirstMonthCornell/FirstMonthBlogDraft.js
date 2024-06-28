@@ -64,7 +64,7 @@ const FirstMonthBlogDraft = () => {
             </Box>
             < br/>
             <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-            I vividly remember walking my first steps as student on campus, looking for new and familiar faces, perhaps some other Korean students. 
+            I vividly remember walking my first steps as a student on campus, looking for new and familiar faces, perhaps some other Korean students. 
             Most of these steps were with my roommate and long-time childhood friend, Shreyas.
                 <br />
                 <br /> We shared many firsts at Cornell together. First conversation in Ithaca, first dining hall experience, first night away from home in our dorm room.
@@ -74,7 +74,7 @@ const FirstMonthBlogDraft = () => {
                 <Box mx="5%" textAlign="center" w="25%">
                     <Image 
                     src="images/BlogImages/FirstMonthBlog/TallShreyas.jpg" 
-                    alt="Cornell Memories"  
+                    alt="Shreyas is tall"  
                     w="100%"  
                     h="auto" 
                     display="block"
@@ -116,9 +116,9 @@ const FirstMonthBlogDraft = () => {
                     src="images/BlogImages/FirstMonthBlog/bartonText.jpg" 
                     alt="first text when I met Robin at Barton"  
                     mt="20px" 
-                    w={{ base: "350px", sm: "55%" }}  
+                    w={{ base: "350px", sm: "100%" }}  
                     minWidth="200px" 
-                    maxW="55%"
+                    maxW="100%"
                     h="auto" 
                     display="block"
                     mx = "auto"
