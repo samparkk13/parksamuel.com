@@ -48,7 +48,7 @@ const FirstMonthBlogDraft = () => {
             <Box mx="15%" textAlign="center">
                 <Image 
                     src="images/BlogImages/FirstMonthBlog/Movein.jpeg" 
-                    alt="Bye Family"  
+                    alt="Saying Bye to my Family"  
                     mt="20px" 
                     w={{ base: "350px", sm: "80%" }}  
                     minWidth="250px" 
@@ -266,7 +266,9 @@ const FirstMonthBlogDraft = () => {
             </Text>
 
             <br />
-            <br />After all the orientation fun, it was time to be what I came here to be – an academic weapon. 
+            <br />
+            After all the orientation fun, it was time to be what I came here to be – an academic weapon. 
+            On the first day of school, I was ready to tackle any class and take on any challenge.
             <br />
             <br />However, I started to realize, the first week of school wasn’t gonna be loaded with work. 
             <br />
@@ -324,7 +326,7 @@ const FirstMonthBlogDraft = () => {
                 <Text mt="4" fontStyle="italic">Debrief in Ganędagǫ Hall music room</Text>
             </Box>
             <br/>
-            <br/>
+
             </Box>
 
                   
@@ -375,7 +377,7 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 <br/>
                 But regardless, after a couple of nights, we noticed that these sophomores started to tire pretty easily. 
-                Maybe it was the sophomore slump? (Yes, sophomore slump is real.)
+                Maybe it was the sophomore slump? (Yes, sophomore slump is real 🥲.)
                 <br/>
                 <br/> Towards the end of our first week, we started to wonder, where are the other freshmen from ER at?? 
                 <br/>
@@ -612,7 +614,7 @@ const FirstMonthBlogDraft = () => {
                 But taking a glance back, it was fun making my first memories at Cornell with this bunch. 
                 <br/>
                 <br/>
-                Seeing us all running this race together and now being upperclassmen is something I look forward to!
+                Seeing us all running this race and go through thick and thin together is something I look forward to!
                 <br/>
                 <br/>
                 <br/>
