@@ -1,64 +1,48 @@
-import { Heading , Button} from "@chakra-ui/react";
-import { Container } from "react-bootstrap";
+import { Heading, Button, Box, Container, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import Type from "./Type";
 
 const Home = () => {
   return (
-      <div style={styles.container}>
-        <Container>
-          <Heading style={styles.heading}>
-            Samuel Park
-          </Heading>
-
-          <div className="large-font">
-             <Type />
-          </div>
-
-          <div style={styles.buttonContainer}>
-            <Button as={Link} to="/about" style={styles.button}>
-              More About Me!
-            </Button>
-          </div>
-          </Container>
-      </div>
+    <Box
+      bg="lightblue"
+      width="100vw"
+      height="90vh"
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      paddingTop="0"
+      position="relative"
+    >
+      <Container centerContent>
+        <Heading fontSize="50px" mt="30px" p="10px" textAlign="center">
+          Samuel Park
+        </Heading>
+        <Text fontSize="2xl" className="large-font">
+          <Type />
+        </Text>
+        <Box mt="20px" textAlign="center">
+          <Button
+            as={Link}
+            to="/about"
+            bg="#7CB9E8"
+            color="black"
+            border="2px solid black"
+            px="20px"
+            py="10px"
+            borderRadius="30px"
+            fontSize="16px"
+            cursor="pointer"
+            transition="background-color 0.3s ease"
+            _hover={{ bg: "#6AA9D8" }}
+            textDecoration="none"
+          >
+            More About Me!
+          </Button>
+        </Box>
+      </Container>
+    </Box>
   );
-}
-
-const styles = {
-  container: {
-    backgroundColor: "lightblue",
-    width: "100vw",
-    height: "100vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    paddingTop: "0px",
-    position: "relative",
-    
-  },
-  heading: {
-    fontSize: "50px",
-    marginTop: "30px",
-    padding: "10px",
-    textAlign: "center",
-  },
-  buttonContainer: {
-    marginTop: '20px',
-    textAlign: 'center',
-  },
-  button: {
-    backgroundColor: "#7CB9E8",
-    color: "black",
-    border: "2px solid black", // added black outline to buttons
-    padding: "10px 20px",
-    borderRadius: "30px",
-    fontSize: "16px",
-    cursor: "pointer",
-    transition: "background-color 0.3s ease",
-    textDecoration: 'none', // added to remove underline in text
-  },
-}
+};
 
 export default Home;
-

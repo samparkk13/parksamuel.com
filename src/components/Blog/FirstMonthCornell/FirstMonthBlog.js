@@ -21,7 +21,7 @@ const FirstMonthBlogDraft = () => {
                 <br />
                 <br /> 
                 Throughout this blog, you’ll come to see how Cornell became my second home. 
-                Actually, my first home as I found myself getting homesick when I was back home with my family.
+                Actually, my first home as I found myself getting homesick when I was back home with on Long Island.
 
                 <br />
                 <br />
@@ -335,7 +335,7 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 <br/>
 
-                Including our first Texas Roadhouse experience. 
+                Including our first Texas Roadhouse experience in Ithaca. 
                 
                 <Box mx="15%" textAlign="center">
                     <Image 
@@ -600,21 +600,23 @@ const FirstMonthBlogDraft = () => {
                     />
                     <Text mt="4" fontStyle="italic">Freshman Class at ER Spring Retreat 2023</Text>
                 </Box>
-                
-                
+
                 <br/>
-                <br/>There are some things that are forgettable from my first year at Cornell, such as the freshman fifteen and awkward interactions. 
+                <br/>
+                There are some things that are forgettable from my first year at Cornell, such as the freshman fifteen and awkward interactions. 
                 But the unforgettable parts are the memories made along the way, the conversations I had, and the friendships that blossomed. 
                 <br/>
-                <br/>I realized that as this “friend group” began to grow closer together and in numbers throughout the year, 
+                <br/>
+                I realized that as this “friend group” began to grow closer together and in numbers throughout the year, 
                 we weren’t really a friend group. 
                 We were all brothers and sisters with a heart of curiosity, kindness, and most importantly, a mustard seed of faith. 
                 <br/>
-                <br/>My freshman year was marked by so many more memories and people that a short entry could never capture in its entirety. 
+                <br/>
+                My freshman year was marked by so many more memories and people that a short entry could never capture in its entirety. 
                 But taking a glance back, it was fun making my first memories at Cornell with this bunch. 
                 <br/>
                 <br/>
-                Seeing us all running this race and go through thick and thin together is something I look forward to!
+                Seeing us all running this race and continue to go through thick and thin together is something I look forward to!
                 <br/>
                 <br/>
                 <br/>
