@@ -3,6 +3,7 @@ import { Box, Image, Text, Heading, Flex } from '@chakra-ui/react';
 import FallingParticles from './Snow/FallingParticles';
 import DisappearingText from './DisappearText';
 import juneProfPicSmall from './ProfilePics/juneProfPicSmall.jpg';
+import juneProfPic2 from './ProfilePics/juneProfPic2.jpg';
 import AboutLinks from './AboutLinks';
 
 const About = () => {
