@@ -24,9 +24,13 @@ body {
 .navbar h1 {
   color: #36454F; 
 }
+.navbar .brand:hover h1 {
+  color: #f1356d; /* Color on hover */
+}
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;

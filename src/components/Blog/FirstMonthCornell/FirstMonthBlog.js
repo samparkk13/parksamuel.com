@@ -1,9 +1,31 @@
-import { Heading, Box, Image, Text, Divider} from "@chakra-ui/react";
+import { Heading, Box, Image, Text, Divider, Button} from "@chakra-ui/react";
+import { Link } from "react-router-dom";
+import { ArrowBackIcon } from '@chakra-ui/icons';
 
 const FirstMonthBlogDraft = () => {
     return (
         
         <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
+            <Button 
+                as={Link}  
+                to="/blog" 
+                position="absolute" 
+                top="100px" 
+                left="50px" 
+                bg="#7CB9E8" 
+                color="black"
+                border="2px solid black" 
+                borderRadius="50%" 
+                p="10px" 
+                _hover={{ bg: "#6AA9D8" }}
+                _focus={{ boxShadow: "none" }}
+                textDecoration="none"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+            >
+                <ArrowBackIcon boxSize="24px" />
+            </Button>
             <br />
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 The Beginning (of Many Beginnings)
@@ -17,19 +39,19 @@ const FirstMonthBlogDraft = () => {
 
             <Box mx="15%" textAlign="center">
                 <Image 
-                    src="images/BlogImages/FreshmanBlogCoverPic.jpg" 
+                    src="images/BlogImages/FirstMonthBlog/fallRetreat22Boys.jpg" 
                     alt="Freshman Blog Cover Pic"
                     mt="20px" 
-                    w={{ base: "350px", sm: "40%" }}  
+                    w={{ base: "350px", sm: "60%" }}  
                     minWidth="250px" 
-                    maxW="40%"
+                    maxW="60%"
                     h="auto" 
                     display="block"
                     mx = "auto"
                     borderRadius= "15px"
                     
                 />
-                <Text mt="4" fontStyle="italic"></Text>
+                <Text mt="4" fontStyle="italic">How did we get here?</Text>
             </Box>
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 
