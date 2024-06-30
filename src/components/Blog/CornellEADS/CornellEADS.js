@@ -20,8 +20,8 @@ const CornellEADS = () => {
                 as={RouterLink} 
                 to="/blog" 
                 position="absolute" 
-                top="20px" 
-                left="50px" 
+                top="5%" 
+                left="5%" 
                 bg="#7CB9E8" 
                 color="black" 
                 border="2px solid black" 

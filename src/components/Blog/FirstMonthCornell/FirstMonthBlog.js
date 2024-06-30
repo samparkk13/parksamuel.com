@@ -10,8 +10,8 @@ const FirstMonthBlogDraft = () => {
                 as={Link}  
                 to="/blog" 
                 position="absolute" 
-                top="100px" 
-                left="50px" 
+                top="15%" 
+                left="5%" 
                 bg="#7CB9E8" 
                 color="black"
                 border="2px solid black" 
@@ -43,7 +43,7 @@ const FirstMonthBlogDraft = () => {
                     alt="Freshman Blog Cover Pic"
                     mt="20px" 
                     w={{ base: "350px", sm: "60%" }}  
-                    minWidth="250px" 
+                    minWidth="300px" 
                     maxW="60%"
                     h="auto" 
                     display="block"
