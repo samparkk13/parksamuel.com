@@ -32,7 +32,7 @@ const About = () => {
                     <Heading as="h1">About Me</Heading>
                     <br/>
                     <Text mt={4}>
-                        Hi! I’m Samuel, a third-year studying Computer Science at Cornell University with a minor in Artificial Intelligence.
+                        Hi! I’m Sam, a third-year studying Computer Science at Cornell University with a minor in Artificial Intelligence.
                     </Text>
                     <br/>
                     <Text mt={4}>

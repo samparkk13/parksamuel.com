@@ -13,8 +13,26 @@ const FirstMonthBlogDraft = () => {
             <Heading align="center">
                 June 2024
             </Heading>
-            <br />
+            
+
+            <Box mx="15%" textAlign="center">
+                <Image 
+                    src="images/BlogImages/FreshmanBlogCoverPic.jpg" 
+                    alt="Freshman Blog Cover Pic"
+                    mt="20px" 
+                    w={{ base: "350px", sm: "40%" }}  
+                    minWidth="250px" 
+                    maxW="40%"
+                    h="auto" 
+                    display="block"
+                    mx = "auto"
+                    borderRadius= "15px"
+                    
+                />
+                <Text mt="4" fontStyle="italic"></Text>
+            </Box>
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                
                 Now that I am halfway through college, I wanted to take a moment to look back on my past two years, perhaps in the form of this blog. 
                 Specifically, the first month of the past two years. 
                 It felt like a journey, and it's hard to believe that I still have two years ahead of me. 
@@ -28,11 +46,14 @@ const FirstMonthBlogDraft = () => {
                 I invite you to join me on my journey back to Fall 2022.
                 <br />
                 <br />
-                <Text as="span" fontSize="1.25em" fontWeight="bold">
+                <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                     Wednesday, August 17th: The Beginning
-                </Text>
+                </Box>
+                {/* <Text as="span" fontSize="1.25em" fontWeight="bold">
+                    Wednesday, August 17th: The Beginning
+                </Text> */}
                 <br />
-                <br /> 
+
                 I arrive at Cornell with a mix of emotions. 
                 <br /> 
                 <br />   
@@ -97,10 +118,10 @@ const FirstMonthBlogDraft = () => {
                 I felt like I was in a whole different world, but at least we had each other. 
                 <br />
                 <br />
-                <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Thursday, August 18th - Friday, August 19th: The Beginning of a Lasting Friendship
-                </Text>
-                <br />
+                <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
+                Thursday, August 18th - Friday, August 19th: The Beginning of a Lasting Friendship
+                </Box>
+
                 <br /> 
                 The next day, Cornell hosted a First-Year Festival at Barton Hall. 
                 This festival gave me the opportunity to play games, win prizes, and meet other first-year students. 
@@ -112,21 +133,21 @@ const FirstMonthBlogDraft = () => {
                 In our very brief conversation, we were able to introduce ourselves, 
                 talk about our faith, and exchange phone numbers. 
                 <Box mx="15%" textAlign="center">
-                <Image 
-                    src="images/BlogImages/FirstMonthBlog/bartonText.jpg" 
-                    alt="first text when I met Robin at Barton"  
-                    mt="20px" 
-                    w={{ base: "350px", sm: "70%" }}  
-                    minWidth="200px" 
-                    maxW="70%"
-                    h="auto" 
-                    display="block"
-                    mx = "auto"
-                    borderRadius= "15px"
-                    
-                />
-                <Text mt="4" fontStyle="italic">We exchanged phone numbers</Text>
-            </Box>
+                    <Image 
+                        src="images/BlogImages/FirstMonthBlog/bartonText.jpg" 
+                        alt="first text when I met Robin at Barton"  
+                        mt="20px" 
+                        w={{ base: "350px", sm: "70%" }}  
+                        minWidth="200px" 
+                        maxW="70%"
+                        h="auto" 
+                        display="block"
+                        mx = "auto"
+                        borderRadius= "15px"
+                        
+                    />
+                    <Text mt="4" fontStyle="italic">We exchanged phone numbers</Text>
+                </Box>
                 <br />
                 <br /> Little did we know, that interaction started a lasting friendship, 
                 and we clicked instantly in a lot of ways. The best part was, he was also{" "}
@@ -178,10 +199,11 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br />
                 <br />
-                <Text as="span" fontSize="1.25em" fontWeight="bold">
+
+                <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                     Friday, August 19th - Sunday, August 21st: The Beginning with Emmaus Road
-                </Text>
-                <br />
+                </Box>
+
                 <br />
                 I had a friend that I knew from back at home that was also at Cornell, Matt. 
                 After a few conversations back at home and a couple text messages shown below, 
@@ -261,11 +283,10 @@ const FirstMonthBlogDraft = () => {
                 Monday, August 22 - Friday, August 26st: "The Beginning of{" "}
                 <Text as="span" fontStyle="italic">Cornell</Text> "
             </Text> */}
-            <Text as="span" fontSize="1.25em" fontWeight="bold">
+            <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                 Monday, August 22nd - Friday, August 26th: The Beginning (Actually)
-            </Text>
+            </Box>
 
-            <br />
             <br />
             After all the orientation fun, it was time to be what I came here to be – an academic weapon. 
             On the first day of school, I was ready to tackle any class and take on any challenge.
@@ -382,11 +403,12 @@ const FirstMonthBlogDraft = () => {
                 <br/> Towards the end of our first week, we started to wonder, where are the other freshmen from ER at?? 
                 <br/>
                 <br/> 
-                <Text as="span" fontSize="1.25em" fontWeight="bold">
+                <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                     Saturday, August 27nd - Wednesday, August 31st: The Beginning of Brotherhood
-                </Text>
-                <br/>
-                <br/> Now into our second weekend at Cornell and after a weekend filled with meeting more new faces at ER, I remember meeting a fellow dark-skinned Asian, Yongjin.
+                </Box>
+
+                <br/> 
+                Now into our second weekend at Cornell and after a weekend filled with meeting more new faces at ER, I remember meeting a fellow dark-skinned Asian, Yongjin.
                 <br/>
                 <br/> 
                 Insert Yongjin, Matt, Robin, and I together. 
@@ -445,11 +467,11 @@ const FirstMonthBlogDraft = () => {
                     <Text mt="4" fontStyle="italic">No entertainment</Text>
                 </Box>
                 <br/>
-                <Text as="span" fontSize="1.25em" fontWeight="bold">
+                <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                     Thursday, September 1st - Saturday, September 17th: The Beginning of Cornell Family
-                </Text>
+                </Box>
                 <br/>
-                <br/> As a new month turned and August slipped away, 
+                As a new month turned and August slipped away, 
                 we realized that our small freshman group was lacking one thing: sisters. 
                 Robin and I remembered two freshmen sisters that we met during orientation weekend, Ellie and Erin. 
                 <br/>
