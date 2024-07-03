@@ -1,22 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Heading, Box, Image, Text, Divider, Button, Input, Textarea, FormControl, FormLabel} from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { ArrowBackIcon } from '@chakra-ui/icons';
+import { ArrowBackIcon, DeleteIcon } from '@chakra-ui/icons';
 
 const FirstMonthBlogDraft = () => {
     const [comments, setComments] = useState([]);
     const [comment, setComment] = useState("");
+
+    useEffect(() => {
+        const savedComments = JSON.parse(localStorage.getItem("comments"));
+        if (savedComments) {
+            setComments(savedComments);
+        }
+    }, []);
 
     const handleCommentChange = (e) => setComment(e.target.value);
 
     const handleCommentSubmit = (e) => {
         e.preventDefault();
         if (comment.trim() !== "") {
-            setComments([...comments, comment]);
+            const newComments = [...comments, comment];
+            setComments(newComments);
+            localStorage.setItem("comments", JSON.stringify(newComments));
             setComment("");
         }
     };
 
+    const handleCommentDelete = (index) => {
+        const newComments = comments.filter((_, i) => i !== index);
+        setComments(newComments);
+        localStorage.setItem("comments", JSON.stringify(newComments));
+    };
+
+    const handleResetComments = () => {
+        setComments([]);
+        localStorage.removeItem("comments");
+    };
     return (
         
         <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
@@ -690,21 +709,19 @@ const FirstMonthBlogDraft = () => {
             </Box>     
 
 
-            <Box mt={8} w="100vw" bg="#7CB9E8" p={4} borderRadius="md" boxShadow="md">
-                <Heading as="h3" size="lg" mb={4} >Leave a Comment</Heading>
+            <Box mt={8} w="100vw" bg="#lightblue" p={4} borderRadius="md" boxShadow="md" border="1px solid black">
+                <Heading as="h3" size="lg" mb={4}>Leave a Comment</Heading>
                 <form onSubmit={handleCommentSubmit}>
                     <FormControl id="comment" isRequired>
-
                         <Textarea 
                             value={comment}
                             onChange={handleCommentChange}
                             placeholder="Write your comment here..."
                             size="sm"
                             resize="vertical"
-                            textAlign="center"
                         />
                     </FormControl>
-                    <Button mt={4} colorScheme="blue" type="submit" >Submit</Button>
+                    <Button mt={4} colorScheme="blue" type="submit">Submit</Button>
                 </form>
                 <Divider my={8} />
                 <Heading as="h3" size="lg" mb={4}>Comments</Heading>
@@ -712,13 +729,22 @@ const FirstMonthBlogDraft = () => {
                     <Text>No comments yet. Be the first to comment!</Text>
                 ) : (
                     comments.map((comment, index) => (
-                        <Box key={index} p={4} bg="gray.100" borderRadius="md" mb={4}>
+                        <Box key={index} p={4} bg="gray.100" borderRadius="md" mb={4} position="relative">
                             <Text>{comment}</Text>
+                            <Button 
+                                position="absolute" 
+                                top="4px" 
+                                right="4px" 
+                                size="sm" 
+                                colorScheme="red" 
+                                onClick={() => handleCommentDelete(index)}
+                            >
+                                <DeleteIcon />
+                            </Button>
                         </Box>
                     ))
                 )}
-            </Box>       
-
+            </Box>
         </Box>
     );
 }
