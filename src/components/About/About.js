@@ -17,7 +17,6 @@ const About = () => {
             alignItems="center"
             paddingTop="0px"
             position="relative"
-            overflowY="auto"
         >
             <FallingParticles />
             <Flex
