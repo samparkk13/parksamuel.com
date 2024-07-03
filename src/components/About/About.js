@@ -54,19 +54,18 @@ const About = () => {
 
 
         <Box
-            bg="lightblue" w = "90vw" minH="80vh" overflowX="hidden" p={80} d="flex" flexDirection="column" alignItems="center"
+            bg="lightblue" w = "90vw" minH="80vh" overflowY="auto" overflowX="hidden" p={80} d="flex" flexDirection="column" alignItems="center"
         >
             <FallingParticles />
             <Flex
-                maxWidth="800px"
+                maxWidth="80%"
                 padding="0 20px"
                 margin="0 auto"
                 flexDirection={{ base: 'column', md: 'row' }}
                 alignItems="center"
-                zIndex={1}
 
             >
-                <Box flex={1} textAlign="left" zIndex={1} padding="20px">
+                <Box flex={1} textAlign="left"padding="20px">
                     <Heading as="h1">About Me</Heading>
                     <br/>
                     <Text mt={4}>
@@ -91,9 +90,8 @@ const About = () => {
                     flexDirection="column"
                     alignItems="center"
                     paddingTop={{ base: '20px', md: '0' }}
-                    zIndex={1}
                 >
-                    <Box marginBottom="20px" marginLeft= "16%">
+                    <Box marginBottom="20px" marginLeft= "15%">
                         <Image
                             src={juneProfPicSmall}
                             alt="About Me"
