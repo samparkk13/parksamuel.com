@@ -21,7 +21,7 @@ function DisappearingText() {
 const styles = {
   container: {
     position: 'absolute',
-    top: 10,
+    top: 100,
     left: '50%',
     transform: 'translateX(-50%)',
     width: '100%',

@@ -4,7 +4,7 @@ import { FaEnvelope, FaYoutube } from 'react-icons/fa';
 const AboutLinks = () => {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-            <a href="mailto:sp994@cornell.com" style={{ margin: '10px 0', textDecoration: 'none', color: '#333', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+            <a href="mailto:sp994@cornell.com" style={{ margin: '10px 0', textDecoration: 'none', color: '#333', display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
                 <FaEnvelope size={24} style={{ cursor: 'pointer' }} /> 
                 <span style={{ marginLeft: '8px' }}>sam13park@gmail.com</span>
             </a>

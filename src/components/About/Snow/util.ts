@@ -24,7 +24,7 @@ export function convertToRadians(degrees: number) {
 
 export const DEFAULT_CONFIG = {
   style: {
-    top: 0,
+    top: 80,
     left: 0,
     width: "100%",
     height: "100%",
@@ -37,7 +37,7 @@ export const DEFAULT_CONFIG = {
   numParticles: 120,
   sizeRange: { min: 1, max: 6 },
   xSpeedRange: { min: -2.5, max: 2.5 },
-  ySpeedRange: { min: 1.5, max: 3 },
+  ySpeedRange: { min: 1.5, max: 7.5 },
   rotationRange: { min: 0, max: 0 },
 } as const;
 
