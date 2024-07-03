@@ -62,7 +62,7 @@ const FirstMonthBlogDraft = () => {
                 <br />
                 <br /> 
                 Throughout this blog, you’ll come to see how Cornell became my second home. 
-                Actually, my first home as I found myself getting homesick when I was back home with on Long Island.
+                Actually, my first home as I found myself getting homesick when I was back home on Long Island.
 
                 <br />
                 <br />
