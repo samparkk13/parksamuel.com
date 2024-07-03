@@ -8,10 +8,53 @@ import AboutLinks from './AboutLinks';
 
 const About = () => {
     return (
-        
+        // <Box bg="lightblue" minW = "100vw" minH="100vh" overflowY="auto" p={4} d="flex" flexDirection="column" alignItems="center">
+        //     <Heading align="center" fontSize="2.5rem" mt="20mm">
+        //         About Me
+        //     </Heading>
+
+        //     <Flex
+        //         mt={8}
+        //         mx="10%"
+        //         flexDirection={{ base: "column", md: "row" }}
+        //         justifyContent={{ base: "center", md: "space-between" }}
+        //         alignItems="center"
+        //         textAlign={{ base: "center", md: "left" }}
+        //     >
+        //         <Box flex="1" textAlign={{ base: "center", md: "left" }}>
+        //             <Text>
+        //                 Hi! I’m Sam, a third-year studying Computer Science at Cornell University with a minor in Artificial Intelligence.
+        //                 <br/><br/>
+        //                 Currently, my interests lie in software engineering, web development, and robotics.
+        //                 <br/><br/>
+        //                 In my free time, I love to golf 🏌️‍♂️, travel 🌍, and see snow fall ☃️.
+        //                 <br/><br/>
+        //                 Feel free to reach out anytime for a chat!
+        //             </Text>
+        //         </Box>
+
+        //         <Box flex="1" textAlign="center" ml={{ base: 0, md: 8 }}>
+        //             <Image 
+        //                 src={juneProfPicSmall}
+        //                 alt="Profile Pic"
+        //                 mt="20px" 
+        //                 w={{ base: "80%", md: "100%" }}  
+        //                 maxWidth="250px" 
+        //                 borderRadius="200px"
+        //                 mx="auto"
+        //                 mb={4}
+        //             />
+        //             <AboutLinks />
+        //         </Box>
+        //     </Flex>
+
+        //     <FallingParticles />
+        //     <DisappearingText />
+        // </Box>
+
 
         <Box
-            bg="lightblue" w = "100vw" minH="80vh" overflow="hidden" p={80} d="flex" flexDirection="column" alignItems="center" 
+            bg="lightblue" w = "100vw" minH="80vh" overflowX="hidden" p={80} d="flex" flexDirection="column" alignItems="center"
         >
             <FallingParticles />
             <Flex
