@@ -37,7 +37,7 @@ export const DEFAULT_CONFIG = {
   numParticles: 120,
   sizeRange: { min: 1, max: 6 },
   xSpeedRange: { min: -2.5, max: 2.5 },
-  ySpeedRange: { min: 1.5, max: 5 },
+  ySpeedRange: { min: 1.5, max: 3 },
   rotationRange: { min: 0, max: 0 },
 } as const;
 
