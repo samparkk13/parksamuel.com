@@ -1,15 +1,25 @@
-import { Heading, Button, Box, Container, Text } from "@chakra-ui/react";
+import { Heading, Button, Box, Container, Text, Flex } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import Type from "./Type";
 
 const Home = () => {
   return (
-    <Box bg="lightblue" minW = "100vw" minH="100vh" overflowY="auto" overflowX="hidden" p={4} d="flex" flexDirection="column" alignItems="center">
+    <Flex
+      bg="lightblue"
+      minW="100vw"
+      minH="100vh"
+      overflowY="auto"
+      overflowX="hidden"
+      p={4}
+      flexDirection="column"
+      justifyContent="center"
+      alignItems="center"
+    >
       <Container centerContent>
-        <Heading fontSize="50px" mt="13%" p="10px" textAlign="center">
+        <Heading fontSize="50px" p="10px" textAlign="center">
           Samuel Park
         </Heading>
-        <Text fontSize="2xl" className="large-font">
+        <Text fontSize="2xl" className="large-font" textAlign="center">
           <Type />
         </Text>
         <Box mt="20px" textAlign="center">
@@ -32,7 +42,7 @@ const Home = () => {
           </Button>
         </Box>
       </Container>
-    </Box>
+    </Flex>
   );
 };
 
