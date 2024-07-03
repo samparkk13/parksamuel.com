@@ -11,15 +11,14 @@ const About = () => {
         <Box
             bg="lightblue"
             width="100vw"
-            height="90vh"
+            height="100vh"
             display="flex"
             justifyContent="center"
             alignItems="center"
-            paddingTop="20px"
+            paddingTop="0px"
             position="relative"
             overflowY="auto"
         >
-             {/* <Box height="75px" /> This will add space at the top */}
             <FallingParticles />
             <Flex
                 maxWidth="800px"
