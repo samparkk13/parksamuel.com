@@ -54,11 +54,13 @@ const About = () => {
                     paddingTop={{ base: '20px', md: '0' }}
                     zIndex={1}
                 >
-                    <Box marginBottom="20px" marginLeft={{ base: '0', md: '10px' }}>
+                    <Box marginBottom="20px" marginLeft= "16%">
                         <Image
                             src={juneProfPicSmall}
                             alt="About Me"
-                            width="250px"
+                            w={{ base: "250px", sm: "50%" }}  
+                            minWidth="80%" 
+                            maxW="50%"
                             height="auto"
                             borderRadius="200"
                         />
