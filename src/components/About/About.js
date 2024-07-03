@@ -7,7 +7,7 @@ import AboutLinks from './AboutLinks';
 
 const About = () => {
     return (
-        <Box bg="lightblue" minW = "100vw" minH="100vh" overflowY="auto" p={4} d="flex" flexDirection="column" alignItems="center">
+        <Box bg="lightblue" minW = "100vw" minH="100vh" overflowY="auto" overflowX="hidden" p={4} d="flex" flexDirection="column" alignItems="center">
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 About Me
             </Heading>
