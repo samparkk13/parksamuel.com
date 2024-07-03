@@ -4,18 +4,9 @@ import Type from "./Type";
 
 const Home = () => {
   return (
-    <Box
-      bg="lightblue"
-      width="100vw"
-      height="90vh"
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      paddingTop="0"
-      position="relative"
-    >
+    <Box bg="lightblue" minW = "100vw" minH="100vh" overflowY="auto" overflowX="hidden" p={4} d="flex" flexDirection="column" alignItems="center">
       <Container centerContent>
-        <Heading fontSize="50px" mt="30px" p="10px" textAlign="center">
+        <Heading fontSize="50px" mt="13%" p="10px" textAlign="center">
           Samuel Park
         </Heading>
         <Text fontSize="2xl" className="large-font">

@@ -1,8 +1,22 @@
-import { Heading, Box, Image, Text, Divider, Button} from "@chakra-ui/react";
+import React, { useState } from 'react';
+import { Heading, Box, Image, Text, Divider, Button, Input, Textarea, FormControl, FormLabel} from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { ArrowBackIcon } from '@chakra-ui/icons';
 
 const FirstMonthBlogDraft = () => {
+    const [comments, setComments] = useState([]);
+    const [comment, setComment] = useState("");
+
+    const handleCommentChange = (e) => setComment(e.target.value);
+
+    const handleCommentSubmit = (e) => {
+        e.preventDefault();
+        if (comment.trim() !== "") {
+            setComments([...comments, comment]);
+            setComment("");
+        }
+    };
+
     return (
         
         <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
@@ -673,7 +687,37 @@ const FirstMonthBlogDraft = () => {
                     <p>Thank you for reading! Stay tuned for more blogs like this! And shoutout Racha for being my blog consultant 😆.</p>
                     {/* <p>© 2024 Samuel Park. All rights reserved.</p> */}
                 </footer>
-            </Box>            
+            </Box>     
+
+
+            <Box mt={8} w="100vw" bg="#7CB9E8" p={4} borderRadius="md" boxShadow="md">
+                <Heading as="h3" size="lg" mb={4} >Leave a Comment</Heading>
+                <form onSubmit={handleCommentSubmit}>
+                    <FormControl id="comment" isRequired>
+
+                        <Textarea 
+                            value={comment}
+                            onChange={handleCommentChange}
+                            placeholder="Write your comment here..."
+                            size="sm"
+                            resize="vertical"
+                            textAlign="center"
+                        />
+                    </FormControl>
+                    <Button mt={4} colorScheme="blue" type="submit" >Submit</Button>
+                </form>
+                <Divider my={8} />
+                <Heading as="h3" size="lg" mb={4}>Comments</Heading>
+                {comments.length === 0 ? (
+                    <Text>No comments yet. Be the first to comment!</Text>
+                ) : (
+                    comments.map((comment, index) => (
+                        <Box key={index} p={4} bg="gray.100" borderRadius="md" mb={4}>
+                            <Text>{comment}</Text>
+                        </Box>
+                    ))
+                )}
+            </Box>       
 
         </Box>
     );
