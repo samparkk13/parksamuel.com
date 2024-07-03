@@ -54,7 +54,7 @@ const About = () => {
 
 
         <Box
-            bg="lightblue" minW = "100vw" minH="80vh" overflow="auto" p={80} d="flex" flexDirection="column" alignItems="center"
+            bg="lightblue" minW = "100vw" minH="80vh" overflow="auto" p={80} d="flex" flexDirection="column" alignItems="center" overflowX="hidden"
         >
             <FallingParticles />
             <Flex
