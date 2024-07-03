@@ -15,10 +15,11 @@ const About = () => {
             display="flex"
             justifyContent="center"
             alignItems="center"
-            paddingTop="50px"
+            paddingTop="20px"
             position="relative"
             overflowY="auto"
         >
+             {/* <Box height="75px" /> This will add space at the top */}
             <FallingParticles />
             <Flex
                 maxWidth="800px"
