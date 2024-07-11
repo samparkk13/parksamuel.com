@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import NotFound from './components/NotFound/NotFound';
+import Summer2025Intern from "./components/Private/Summer2025Intern";
 import { VStack } from "@chakra-ui/react";
 
 import {
@@ -43,13 +44,20 @@ function App() {
           <div className="App" >
             
             <Routes>
+              {/* Routes */}
               <Route path = "/" element = {<Home />} />
               <Route path = "/about" element = {<About />} />
               <Route path = "/blog" element = {<Blog />} />
               <Route path = "/cornelleads" element = {<CornellEADS />} />
               <Route path = "/CornellBeginnings" element = {<FirstMonthBlog />} />
+
+              {/* Hidden Routes */}
+              <Route path="/Summer2025Internships" element={<Summer2025Intern />} />
+
+              {/* Not Found Route */}
               <Route path="*" element={<NotFound />} />
 
+    
             </Routes>
           </div>
           

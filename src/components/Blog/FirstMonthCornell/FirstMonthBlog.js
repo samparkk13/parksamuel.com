@@ -72,9 +72,7 @@ const FirstMonthBlogDraft = () => {
                 <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                     Wednesday, August 17th: The Beginning
                 </Box>
-                {/* <Text as="span" fontSize="1.25em" fontWeight="bold">
-                    Wednesday, August 17th: The Beginning
-                </Text> */}
+
                 <br />
 
                 I arrive at Cornell with a mix of emotions. 
@@ -175,7 +173,7 @@ const FirstMonthBlogDraft = () => {
                 <br /> Little did we know, that interaction started a lasting friendship, 
                 and we clicked instantly in a lot of ways. The best part was, he was also{" "}
                 <Text as="span" fontFamily="'Times New Roman', sans-serif" textDecoration="line-through">
-                    korean
+                    Korean
                 </Text>{" "}
                 {" "}
                 <Text as="span" fontFamily="'Times New Roman', sans-serif" textDecoration="line-through">
@@ -302,10 +300,7 @@ const FirstMonthBlogDraft = () => {
             I played lots of games with the people I met there, attended the beginning-of-the-year BBQ, went to Sunday service, and much more. 
             <br />
             <br />
-            {/* <Text as="span" fontSize="1.25em" fontWeight="bold">
-                Monday, August 22 - Friday, August 26st: "The Beginning of{" "}
-                <Text as="span" fontStyle="italic">Cornell</Text> "
-            </Text> */}
+
             <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                 Monday, August 22nd - Friday, August 26th: The Beginning (Actually)
             </Box>
@@ -627,9 +622,9 @@ const FirstMonthBlogDraft = () => {
                 </Box>
                 <br/>
                 <br/>
-                I’ll end this blog entry here, as writing about the memories made and the people met throughout my freshman year would make this one too long. 
-
-                But as my freshman year went on, our freshman group grew bigger and bigger.
+                There are some things that are forgettable from my first year at Cornell, such as the freshman fifteen and awkward interactions. 
+                But the unforgettable parts are the memories made along the way, the conversations I had, and the friendships that blossomed. 
+ 
                 <Box mx="15%" textAlign="center">
                     <Image 
                         src="images/BlogImages/FirstMonthBlog/freshmanClass.jpg"
@@ -646,10 +641,6 @@ const FirstMonthBlogDraft = () => {
                     <Text mt="4" fontStyle="italic">Freshman Class at ER Spring Retreat 2023</Text>
                 </Box>
 
-                <br/>
-                <br/>
-                There are some things that are forgettable from my first year at Cornell, such as the freshman fifteen and awkward interactions. 
-                But the unforgettable parts are the memories made along the way, the conversations I had, and the friendships that blossomed. 
                 <br/>
                 <br/>
                 I realized that as this “friend group” began to grow closer together and in numbers throughout the year, 
