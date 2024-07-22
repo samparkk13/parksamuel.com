@@ -66,9 +66,6 @@
 .disappearing-text-container {
     position: absolute;
     top: 17%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
     max-width: 100vw;
     text-align: center;
     padding: 10px;
