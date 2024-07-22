@@ -1,41 +1,21 @@
 import { Heading, Button, Box, Container, Text, Flex } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import Type from "./Type";
+import './Home.css';  // Import the CSS file
 
 const Home = () => {
   return (
-    <Flex
-      bg="lightblue"
-      minW="100vw"
-      minH="100vh"
-      overflowY="auto"
-      overflowX="hidden"
-      p={4}
-      flexDirection="column"
-      justifyContent="center"
-      alignItems="center"
-    >
-      <Container centerContent>
-        <Heading fontSize="50px" p="10px" textAlign="center">
-          Samuel Park
-        </Heading>
-        <Text fontSize="2xl" className="large-font" textAlign="center">
+    <Flex className="home-container">
+      <Container centerContent className="home-content">
+        <Heading className="home-heading">Samuel Park</Heading>
+        <Text className="home-text">
           <Type />
         </Text>
-        <Box mt="20px" textAlign="center">
+        <Box mt="40px" textAlign="center">
           <Button
             as={Link}
             to="/about"
-            bg="#7CB9E8"
-            color="black"
-            border="2px solid black"
-            px="20px"
-            py="10px"
-            borderRadius="30px"
-            fontSize="16px"
-            cursor="pointer"
-            transition="background-color 0.3s ease"
-            _hover={{ bg: "#6AA9D8" }}
+            className="home-button"
             textDecoration="none"
           >
             More About Me!

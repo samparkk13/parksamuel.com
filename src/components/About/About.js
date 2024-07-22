@@ -3,11 +3,12 @@ import { Box, Image, Text, Heading, Flex } from '@chakra-ui/react';
 import FallingParticles from './Snow/FallingParticles';
 import DisappearingText from './DisappearText';
 import juneProfPicSmall from './ProfilePics/juneProfPicSmall.jpg';
+import ProfPicLarge from './ProfilePics/profPicLarge.jpg'
 import AboutLinks from './AboutLinks';
 
 const About = () => {
     return (
-        <Box bg="lightblue" minW = "100vw" minH="100vh" overflowY="auto" overflowX="hidden" p={4} d="flex" flexDirection="column" alignItems="center">
+        <Box bg="lightblue" maxW = "100vw" minH="100vh" overflowY="auto" overflowX="hidden" p={4} d="flex" flexDirection="column" alignItems="center">
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 About Me
             </Heading>
@@ -34,10 +35,10 @@ const About = () => {
 
                 <Box flex="2" textAlign="center" ml={{ base: 0, md: 8 }} zIndex="1000">
                     <Image 
-                        src={juneProfPicSmall}
+                        src={ProfPicLarge}
                         alt="About Me"
                         w={{ base: "250px", sm: "50%" }}  
-                        minWidth="70%" 
+                        minWidth="50%" 
                         maxW="50%"
                         height="auto"
                         borderRadius="200"

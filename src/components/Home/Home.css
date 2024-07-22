@@ -1,9 +1,44 @@
-
-/* 
-.container h1{
-    font-size: 80px;
-    font-weight: 1000;
-} */
+.home-container {
+    background-color: lightblue;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-heading {
+    font-size: 50px;
+    padding: 30px;
+  }
+  
+  .home-text {
+    font-size: 2xl;
+  }
+  
+  .home-button {
+    background-color: #7CB9E8;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #6AA9D8;
+  }
+  
 
 
 .social__icons{

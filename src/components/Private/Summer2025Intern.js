@@ -207,6 +207,8 @@ const Summer2025Intern = () => {
                         Received referral (07/08) <span>&rarr;&nbsp;</span> 
                         Applied online with referral (07/11) <span>&rarr;&nbsp;</span> 
                         Received OA (07/16) <span>&rarr;&nbsp;</span> 
+                        Completed OA - passed 15/15 test cases for first question, 3/15 test cases for second question, and 9/9 test cases for last question (07/20) <span>&rarr;&nbsp;</span> 
+                        
                     </Box>
                 </Flex>
                 <br/>
