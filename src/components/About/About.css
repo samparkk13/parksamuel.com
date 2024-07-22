@@ -3,12 +3,12 @@
     width: 100vw;
     min-height: 100vh;
     overflow-y: auto;
-    overflow-x: hidden;  /* Prevent horizontal scrolling */
-    padding: 16px;
+    overflow-x: hidden;
+    padding: -200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    box-sizing: border-box;  /* Include padding and border in element's total width and height */
   }
   
   .about-heading {
