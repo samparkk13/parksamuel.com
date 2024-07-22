@@ -3,11 +3,12 @@
     width: 100vw;
     min-height: 100vh;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: hidden;  /* Prevent horizontal scrolling */
     padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;  /* Include padding and border in element's total width and height */
   }
   
   .about-heading {
@@ -18,8 +19,7 @@
   
   .about-flex {
     margin-top: 32px;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;  /* Ensure flex container does not overflow */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,6 +36,7 @@
   
   .about-text {
     flex: 3;
+    width: 100%;  /* Ensure text container does not overflow */
   }
   
   .about-image-container {
@@ -44,6 +45,7 @@
     margin-left: 0;
     position: relative;
     z-index: 1000;
+    width: 100%;  /* Ensure image container does not overflow */
   }
   
   @media (min-width: 768px) {
@@ -53,8 +55,8 @@
   }
   
   .about-image {
-    width: 250px;
-    max-width: 50%;
+    width: 100%;
+    max-width: 250px;  /* Ensure image does not overflow */
     min-width: 70%;
     height: auto;
     border-radius: 200px;
