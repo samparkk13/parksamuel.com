@@ -4,11 +4,10 @@
     min-height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: -200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
   }
   
   .about-heading {
@@ -19,7 +18,7 @@
   
   .about-flex {
     margin-top: 32px;
-    width: 100%;  /* Ensure flex container does not overflow */
+    width: 70%;  /* Ensure flex container does not overflow */
     flex-direction: column;
     justify-content: center;
     align-items: center;
