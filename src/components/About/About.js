@@ -2,26 +2,19 @@ import React from 'react';
 import { Box, Image, Text, Heading, Flex } from '@chakra-ui/react';
 import FallingParticles from './Snow/FallingParticles';
 import DisappearingText from './DisappearText';
-import juneProfPicSmall from './ProfilePics/juneProfPicSmall.jpg';
-import ProfPicLarge from './ProfilePics/profPicLarge.jpg'
+import ProfPicLarge from './ProfilePics/profPicLarge.jpg';
 import AboutLinks from './AboutLinks';
+import './About.css';  // Import the CSS file
 
 const About = () => {
     return (
-        <Box bg="lightblue" width = "100vw" minH="100vh" overflowY="auto" overflowX="hidden" p={4} d="flex" flexDirection="column" alignItems="center">
-            <Heading align="center" fontSize="2.5rem" mt="20mm">
+        <Box className="about-container">
+            <Heading className="about-heading">
                 About Me
             </Heading>
 
-            <Flex
-                mt={8}
-                mx="10%"
-                flexDirection={{ base: "column", md: "row" }}
-                justifyContent={{ base: "center", md: "space-between" }}
-                alignItems="center"
-                textAlign={{ base: "center", md: "left" }}
-            >
-                <Box flex="3" textAlign={{ base: "center", md: "left" }}>
+            <Flex className="about-flex">
+                <Box className="about-text">
                     <Text>
                         Hi! I’m Sam, a third-year studying Computer Science at Cornell University with a minor in Artificial Intelligence.
                         <br/><br/>
@@ -33,16 +26,11 @@ const About = () => {
                     </Text>
                 </Box>
 
-                <Box flex="2" textAlign="center" ml={{ base: 0, md: 8 }} zIndex="1000">
+                <Box className="about-image-container">
                     <Image 
                         src={ProfPicLarge}
                         alt="About Me"
-                        w={{ base: "250px", sm: "50%" }}  
-                        minWidth="70%" 
-                        maxW="50%"
-                        height="auto"
-                        borderRadius="200"
-                        
+                        className="about-image"
                     />
                     <AboutLinks />
                 </Box>
@@ -51,6 +39,12 @@ const About = () => {
             <FallingParticles />
             <DisappearingText />
         </Box>
+    );
+};
+
+export default About;
+
+
 
 
         // <Box
@@ -108,7 +102,3 @@ const About = () => {
         //         </Flex>
         //     </Flex>
         // </Box>
-    );
-};
-
-export default About;
