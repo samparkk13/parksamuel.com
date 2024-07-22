@@ -36,8 +36,7 @@ const About = () => {
                 </Box>
             </Flex>
 
-           
-            <DisappearingText />
+            
         </Box>
     );
 };
