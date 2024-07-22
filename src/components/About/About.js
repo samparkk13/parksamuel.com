@@ -36,7 +36,8 @@ const About = () => {
                 </Box>
             </Flex>
 
-            
+            <FallingParticles />
+            <DisappearingText />
         </Box>
     );
 };

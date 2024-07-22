@@ -61,3 +61,21 @@
     border-radius: 200px;
   }
   
+
+
+/* DISAPPEARING TEXT STYLING */
+  .disappearing-text-container {
+    position: absolute;
+    top: 17%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+    overflow-x: hidden;
+}
+
+.disappearing-text {
+    font-size: 1em;
+    color: white;
+    font-family: 'Impact, fantasy';
+}
