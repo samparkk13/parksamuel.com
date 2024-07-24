@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import NotFound from './components/NotFound/NotFound';
-import Summer2025Intern from "./components/Private/Summer2025Intern";
+
 import { VStack } from "@chakra-ui/react";
 
 import {
@@ -15,8 +15,10 @@ import {
   useLocation,
 } from "react-router-dom";
 
-import CornellEADS from "./components/Blog/CornellEADS/CornellEADS";
+import KoreaBlog from "./components/Blog/Korea/KoreaBlog";
 import FirstMonthBlog from "./components/Blog/FirstMonthCornell/FirstMonthBlog";
+
+import Summer2025Intern from "./components/Private/Summer2025Intern";
 
 
 
@@ -48,7 +50,7 @@ function App() {
               <Route path = "/" element = {<Home />} />
               <Route path = "/about" element = {<About />} />
               <Route path = "/blog" element = {<Blog />} />
-              <Route path = "/cornelleads" element = {<CornellEADS />} />
+              <Route path = "/KoreaBlog" element = {<KoreaBlog />} />
               <Route path = "/CornellBeginnings" element = {<FirstMonthBlog />} />
 
               {/* Hidden Routes */}

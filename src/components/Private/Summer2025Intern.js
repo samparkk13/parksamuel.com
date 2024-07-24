@@ -11,7 +11,7 @@ const Summer2025Intern = () => {
             <br />
             <br />
             <Heading align="center">
-                July 2024
+                July 2024 - Present
             </Heading>
 
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
@@ -119,6 +119,56 @@ const Summer2025Intern = () => {
                     </Box>
                 </Flex>
             </Box>
+
+
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
+                    The Trade Desk
+                </Box>
+                <Box mx="0%" display="flex" justifyContent="flex-start">
+                    <Image 
+                        src="images/Logos/theTradeDesk.jpeg"
+                        alt="The Trade Desk Logo"
+                        mt="20px" 
+                        w={{ base: "350px", sm: "30%" }}
+                        minWidth="200px"  
+                        maxW="30%" 
+                        h="auto" 
+                        display="block"
+                        borderRadius= "15px"
+                    />
+                </Box>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Position:
+                    </Box>
+                    <Box fontWeight="medium">
+                        2025 Software Engineering Summer Intern
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Timeline:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Applied (06/24) <span>&rarr;&nbsp;</span> 
+                        Received OA (07/20) <span>&rarr;&nbsp;</span> 
+                        Attended Open House (07/23) <span>&rarr;&nbsp;</span> 
+
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Thoughts:
+                    </Box>
+                    <Box fontWeight="medium">
+                        
+                    </Box>
+                </Flex>
+            </Box>
             
 
 
@@ -145,7 +195,7 @@ const Summer2025Intern = () => {
                         Position:
                     </Box>
                     <Box fontWeight="medium">
-                        Software Engineer Intern
+                        2025 Software Engineer Program - Summer Internship – United States
                     </Box>
                 </Flex>
                 <br/>
@@ -195,7 +245,7 @@ const Summer2025Intern = () => {
                         Position:
                     </Box>
                     <Box fontWeight="medium">
-                        Software Engineer Intern
+                        Software Engineer, Internship
                     </Box>
                 </Flex>
                 <br/>
@@ -208,7 +258,7 @@ const Summer2025Intern = () => {
                         Applied online with referral (07/11) <span>&rarr;&nbsp;</span> 
                         Received OA (07/16) <span>&rarr;&nbsp;</span> 
                         Completed OA - passed 15/15 test cases for first question, 3/15 test cases for second question, and 9/9 test cases for last question (07/20) <span>&rarr;&nbsp;</span> 
-                        
+
                     </Box>
                 </Flex>
                 <br/>
@@ -223,6 +273,7 @@ const Summer2025Intern = () => {
             </Box>
 
 
+
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontSize="1.5em" fontWeight="bold" mr={6}>
@@ -234,8 +285,8 @@ const Summer2025Intern = () => {
                         <List styleType="disc">
                             <ListItem>SIG</ListItem>
                             <ListItem>Apple</ListItem>
-                            <ListItem>Optiver (received OA)</ListItem>
-                            <ListItem>Citadel (completed OA)</ListItem>
+                            <ListItem>Optiver</ListItem>
+                            <ListItem>Citadel</ListItem>
                             <ListItem>DRW</ListItem>
                             <ListItem>IMC Trading</ListItem>
                         </List>
