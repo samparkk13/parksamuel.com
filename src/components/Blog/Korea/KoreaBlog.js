@@ -88,11 +88,10 @@ const KoreaBlog = () => {
                 Throughout this blog, I will be reviewing some of my favorite meals and sharing some memorable places I visited. 
                 <br/>
                 <br/>
-
-                
-
+                REST OF THE BLOG COMING SOON
+                <br/>
+                <br/>
             </Box>
-           
         </Box>
     );
 };
