@@ -662,8 +662,8 @@ const FirstMonthBlogDraft = () => {
                 <br/>
                 <footer class="small-footer-text">
 
-                    <p>Thank you for reading! Stay tuned for more blogs like this! And shoutout Racha for being my blog consultant 😆.</p>
-                    {/* <p>© 2024 Samuel Park. All rights reserved.</p> */}
+                    {/* <p>Thank you for reading! Stay tuned for more blogs like this! And shoutout Racha for being my blog consultant 😆.</p> */}
+                    <p>© 2024 Samuel Park. All rights reserved.</p>
                 </footer>
             </Box>     
 

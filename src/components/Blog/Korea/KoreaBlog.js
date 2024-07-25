@@ -1,6 +1,7 @@
 import { Heading, Box, Image, Text, Divider, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { ArrowBackIcon } from '@chakra-ui/icons';
+import './KoreaBlog.css';
 
 const KoreaBlog = () => {
 
@@ -52,28 +53,46 @@ const KoreaBlog = () => {
                     borderRadius= "15px"
                     
                 />
-                <Text mt="4" fontStyle="italic">me and my cousins</Text>
+                <Text mt="4" fontStyle="italic">me with my cousins</Text>
             </Box>
             <br/>
 
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-            The summer of 2023 was a great couple months in my life. A time back at home and a time to recharge.
-            <br />
-            <br />
-            As well as a time to visit Korea and the many extended family members there.
-            <br />
-            <br />
-            Going to Korea is a once in a blue moon type of opportunity for many reasons. Plane ticket cost, length of flight, time commitment… the list goes on. 
-            <br />
-            <br />
-            I figured that this time of my life would be an ideal time to take a quick trip to Korea. And so I decided to spend a little over two weeks with family and friends there.
-            <br />
-            <br />
-            Throughout this blog, I will be reviewing some of my favorite meals and sharing some memorable places I visited. 
-            <br />
-            <br />
-            REST OF THE BLOG IS TO COME...
+                I was born and raised in the United States. 
+                <br/>
+                <br/>
+                I’ve lived my entire life in Long Island, NY.
+                <br/>
+                <br/>
+                When people ask me where I am from, most of the time my answer is “New York”. 
+                <br/>
+                <br/>
+                But my appearance and the household culture that I grew up in does not reflect a typical New Yorker.
+                <br/>
+                <br/>
+                I may have been born in New York, but my ancestral roots trace back to South Korea. 
+                <br/>
+                <br/>
+                Traveling to Korea is a once in a blue moon opportunity for many reasons. Plane ticket cost, the prior planning required, plane ticket availability… the list goes on. 
+                <br/>
+                <br/>
+                Because of the aforementioned reasons, I have not been to Korea in many years. 
+                <br/>
+                <br/>
+                When “cheap” plane tickets to Korea suddenly became available due to a new airline, the opportunity to visit presented itself.
+                <br/>
+                <br/>
+                I figured that this time of my life would be an ideal time to take a quick trip to the motherland. And so I decided to spend a little over two weeks with family and friends there.
+                <br/>
+                <br/>
+                Throughout this blog, I will be reviewing some of my favorite meals and sharing some memorable places I visited. 
+                <br/>
+                <br/>
+
+                
+
             </Box>
+           
         </Box>
     );
 };
