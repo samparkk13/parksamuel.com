@@ -73,32 +73,11 @@ const KoreaBlog = () => {
                 I may have been born in New York, but my ancestral roots trace back to South Korea. 
                 <br/>
                 <br/>
-                {/* Traveling to Korea is a once in a blue moon opportunity for many reasons. Plane ticket cost, the prior planning required, plane ticket availability… the list goes on. 
-                <br/>
-                <br/>
-                Because of the aforementioned reasons, I have not been to Korea in many years.
-                <br/>
-                <br/>
-                When “cheap” (~$1300 round trip) plane tickets to Korea suddenly became available due to a new airline, the opportunity to visit presented itself. */}
-                {/* <br/>
-                <br/>
-                I figured that this time of my life would be an ideal time to take a quick trip to the motherland. And so I decided to spend a little over two weeks with family and friends there. 
-                <br/>
-                <br/>*/}
-                Throughout this blog, I’ll reflect on my stay in Korea, sharing reviews of my favorite meals and highlighting some of the most memorable places I visited. 
-                <br/>
-                <br/>
-
-
-                {/* <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
-                    The Journey There
-                </Box>
-                <br/>
-                
-                On a warm summer night, my 14 hour flight took off from Newark airport. This was the first time I was traveling without my family. 
-                
-
+                However, traveling to Korea is a once in a blue moon opportunity for many reasons. 
+                The length of the plane ride, plane ticket cost, the length of the plane ride… the list goes on. 
+ 
             </Box>
+            
             <Box mx="15%" textAlign="center">
                 <Image 
                     src="images/BlogImages/Korea/milttamPlane.jpg" 
@@ -112,8 +91,38 @@ const KoreaBlog = () => {
                     mx="auto"
                     borderRadius="15px"
                 />
-                <Text mt="4" fontStyle="italic">I wasn't totally alone</Text>
+                <Text mt="4" fontStyle="italic">The 15-hour plane ride knocks people out</Text>
             </Box>
+
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                When “cheap” (~$1300 round trip) plane tickets to Korea suddenly became available due to a new airline, the opportunity to visit presented itself.
+
+            </Box>
+
+            <Box mx="15%" textAlign="center">
+                <Image 
+                    src="images/BlogImages/Korea/planeFood.jpg" 
+                    alt="delicious plane food"  
+                    mt="20px" 
+                    w={{ base: "350px", sm: "80%" }}  
+                    minWidth="250px" 
+                    maxW="45%"
+                    h="auto" 
+                    display="block"
+                    mx="auto"
+                    borderRadius="15px"
+                />
+                <Text mt="4" fontStyle="italic">The 15-hour plane ride is compensated with great Korean meals</Text>
+            </Box>
+
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                Throughout this blog, I’ll reflect on my stay in Korea, sharing reviews of my favorite meals and highlighting some of the most memorable places I visited. 
+                <br/>
+                <br/>
+
+
+                {/* 
+
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 However, any fears that I had about this daunting flight or traveling alone went away after my first plane meal.
             </Box>
