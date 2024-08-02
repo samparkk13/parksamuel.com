@@ -162,59 +162,11 @@ const Summer2025Intern = () => {
                 <br/>
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontWeight="bold" mr={6}>
-                        Thoughts:
+                        Thoughts: 
                     </Box>
                     <Box fontWeight="medium">
-                        
-                    </Box>
-                </Flex>
-            </Box>
-            
-
-
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
-                    JP Morgan
-                </Box>
-                <Box mx="0%" display="flex" justifyContent="flex-start">
-                    <Image 
-                        src="images/Logos/JPMorganLogo.jpeg"
-                        alt="J.P. Morgan Logo"
-                        mt="20px" 
-                        w={{ base: "350px", sm: "30%" }}
-                        minWidth="200px"  
-                        maxW="30%" 
-                        h="auto" 
-                        display="block"
-                        borderRadius= "15px"
-                    />
-                </Box>
-                <br/>
-                <Flex textAlign="left" fontSize="1.0em">
-                    <Box fontWeight="bold" mr={6}>
-                        Position:
-                    </Box>
-                    <Box fontWeight="medium">
-                        2025 Software Engineer Program - Summer Internship – United States
-                    </Box>
-                </Flex>
-                <br/>
-                <Flex textAlign="left" fontSize="1.0em">
-                    <Box fontWeight="bold" mr={6}>
-                        Timeline: 
-                    </Box>
-                    <Box fontWeight="medium">
-                        Applied online with referral (07/03) <span>&rarr;&nbsp;</span> 
-                        received OA (07/04) <span>&rarr;&nbsp;</span> 
-                        completed OA - passed 8/15 test cases for first question and 3/15 test cases for second question (07/11) <span>&rarr;&nbsp;</span> 
-                    </Box>
-                </Flex>
-                <br/>
-                <Flex textAlign="left" fontSize="1.0em">
-                    <Box fontWeight="bold" mr={6}>
-                        Thoughts:
-                    </Box>
-                    <Box fontWeight="medium">
+                        I was actually invited to their open house, where I was exposed to the company and many of its workers.
+                        The open house was pretty awesome: workplace smack in midtown NYC, good benefits, and great people. 
                         
                     </Box>
                 </Flex>
@@ -258,7 +210,7 @@ const Summer2025Intern = () => {
                         Applied online with referral (07/11) <span>&rarr;&nbsp;</span> 
                         Received OA (07/16) <span>&rarr;&nbsp;</span> 
                         Completed OA - passed 15/15 test cases for first question, 3/15 test cases for second question, and 9/9 test cases for last question (07/20) <span>&rarr;&nbsp;</span> 
-
+                        <b>Rejected</b> (07/25)
                     </Box>
                 </Flex>
                 <br/>
@@ -267,7 +219,61 @@ const Summer2025Intern = () => {
                         Thoughts:
                     </Box>
                     <Box fontWeight="medium">
-                        
+                        I was kind of bummed with the rejection, I thought I had a decent shot and I was fairly proud of how I did on the OA.
+                        Palantir recruitment is known for being notoriously long however, so I guess I can say that I didn't have to go through that.
+                        I just had to get numb to the feeling of getting rejected and try to move on for my upcoming OAs / interviews. 
+                    </Box>
+                </Flex>
+            </Box>
+
+
+
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
+                    JP Morgan
+                </Box>
+                <Box mx="0%" display="flex" justifyContent="flex-start">
+                    <Image 
+                        src="images/Logos/JPMorganLogo.jpeg"
+                        alt="J.P. Morgan Logo"
+                        mt="20px" 
+                        w={{ base: "350px", sm: "30%" }}
+                        minWidth="200px"  
+                        maxW="30%" 
+                        h="auto" 
+                        display="block"
+                        borderRadius= "15px"
+                    />
+                </Box>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Position:
+                    </Box>
+                    <Box fontWeight="medium">
+                        2025 Software Engineer Program - Summer Internship – United States
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Timeline: 
+                    </Box>
+                    <Box fontWeight="medium">
+                        Applied online (07/23) <span>&rarr;&nbsp;</span> 
+                        received OA (07/23) <span>&rarr;&nbsp;</span> 
+                        completed OA - passed 15/15 test cases for both questions (07/26) <span>&rarr;&nbsp;</span> 
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Thoughts:
+                    </Box>
+                    <Box fontWeight="medium">
+                        I applied with referral at first, but I bombed the OA + the OA was super difficult. 
+                        Honestly, I was in disbelief, so I reapplied with another email w/out a referral and received the OA again, which was much much easier. 
+                        I got a perfect score and solved it in pretty good time complexity too IMO. 
                     </Box>
                 </Flex>
             </Box>
