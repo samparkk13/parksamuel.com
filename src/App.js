@@ -17,6 +17,7 @@ import {
 
 import KoreaBlog from "./components/Blog/Korea/KoreaBlog";
 import FirstMonthBlog from "./components/Blog/FirstMonthCornell/FirstMonthBlog";
+import BethpageBlackBlog from "./components/Blog/BethpageBlackBlog/BethpageBlackBlog";
 
 import Summer2025Intern from "./components/Private/Summer2025Intern";
 
@@ -52,6 +53,7 @@ function App() {
               <Route path = "/blog" element = {<Blog />} />
               <Route path = "/KoreaBlog" element = {<KoreaBlog />} />
               <Route path = "/CornellBeginnings" element = {<FirstMonthBlog />} />
+              <Route path = "/BethpageBlack" element = {<BethpageBlackBlog />} />
 
               {/* Hidden Routes */}
               <Route path="/Summer2025Internships" element={<Summer2025Intern />} />
