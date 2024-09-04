@@ -23,7 +23,7 @@ const BlogCard = ({ title, time, description, image, path }) => {
     >
     <VStack>
       <HStack>  
-        <Image src={image} boxSize="25%" objectFit='cover' borderRadius={20} /> 
+        <Image src={image} boxSize="45%" objectFit='cover' borderRadius={20} /> 
           <VStack marginTop={5} marginBottom={5} marginRight={5} marginLeft={5}>
             <Heading fontSize="135%" textAlign="center">{title}</Heading>
             <Heading fontSize="90%" textAlign="center">{time}</Heading> 
