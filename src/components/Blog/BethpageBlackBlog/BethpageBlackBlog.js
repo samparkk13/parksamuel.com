@@ -29,6 +29,9 @@ const BethpageBlackBlog = () => {
                 <ArrowBackIcon boxSize="24px" />
             </Button>
             <br />
+            <br />
+            <br />
+            <br />
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 Bethpage Black: A Test of Character, Mentality, and Grit
             </Heading>
