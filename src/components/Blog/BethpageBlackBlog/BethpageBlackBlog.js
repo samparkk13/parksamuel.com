@@ -31,13 +31,13 @@ const BethpageBlackBlog = () => {
             <br />
             <br />
             <br />
-            <Heading align="center" fontSize="2.5rem" mt="20mm">
+            <Heading align="center" fontSize="2.25rem" mt="20mm">
                 Bethpage Black: A Test of Character, Mentality, and Grit
             </Heading>
             <br />
             <br />
             <Heading align="center">
-                June 2024
+                September 2024
             </Heading>
             <Box mx="15%" textAlign="center">
                 <Image 
