@@ -30,7 +30,6 @@ const BethpageBlackBlog = () => {
             </Button>
             <br />
             <br />
-            <br />
             <Heading align="center" fontSize="2.25rem" mt="20mm">
                 Bethpage Black: A Test of Character, Mentality, and Grit
             </Heading>
@@ -52,7 +51,7 @@ const BethpageBlackBlog = () => {
                     mx="auto"
                     borderRadius="15px"
                 />
-                <Text mt="4" fontStyle="italic">the view of hole 1</Text>
+                <Text mt="4" fontStyle="italic">the beautiful view of hole 1 from the gallery</Text>
             </Box>
 
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
@@ -61,8 +60,10 @@ const BethpageBlackBlog = () => {
                 The air was still, filled with the sweet scent of freshly cut grass from the nearby golf greens 
                 and the faint hum of bush crickets starting their evening song. 
                 Drops of sweat trickled down my back, mingling with the lingering heat of the day. 
+                <br />
+                <br /> 
                 I stood there, pumping gas into my Toyota RAV4, my muscles pleasantly sore after a grueling 4-hour round of golf. 
-                As I leaned against the car, taking in the serene moment, a thought suddenly crossed my mind: what is it like to golf on the infamous Bethpage Black Course? 
+                As I leaned against the car, taking in this moment, a thought suddenly crossed my mind: what is it like to golf on the infamous Bethpage Black Course? 
                 <br />
                 <br /> 
                 Rich in tradition and deeply rooted in golf's history, 
@@ -147,7 +148,7 @@ const BethpageBlackBlog = () => {
             </Box>
 
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-                The earliest available time for 2 at Bethpage Black was at 9:40 AM, so Robin and I booked that. 
+                The earliest available time for 2 at Bethpage Black was at 9:40 AM, so we decided to book that. 
                 I was honestly pretty surprised that we got our time as late as we did, as I was expecting a time at least before 8 AM. 
                 Especially after hearing that the first hour of tee times every day were reserved for those who wait in the parking lots. 
                 But a tee time is a tee time.
@@ -172,14 +173,13 @@ const BethpageBlackBlog = () => {
 
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 With now a bit less than 4 hours to kill until our tee time, and now with much lower adrenaline levels, 
-                we decided to go back home, eat, recharge, and then come back for our time. 
+                we decided to go back home, eat, recharge, and then come back for our scheduled tee time. 
                 A nice breakfast and a 2-hour nap later, we were ready to go.
                 <br /> 
                 <br />
                 I set a goal for myself, which was just to break 100. 
-                I figured that even breaking 100 would be tough to come by, 
-                especially considering the course toughness and the fact that we have to walk the course. 
-                No carts are allowed on the course to preserve the course conditions.
+                Currently as a near-bogey golfer, I have long graduated scoring a round in the 100s. 
+                But on this course with this difficulty, I figured that even breaking 100 would be tough to come by. 
             </Box>
 
             <Box mx="15%" textAlign="center">
