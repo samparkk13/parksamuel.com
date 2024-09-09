@@ -20,8 +20,9 @@ const About = () => {
                         <br/><br/>
                         Currently, my interests lie in software engineering, web development, and robotics.
                         <br/><br/>
-                        In my free time, I’m always looking for someone to play 18 holes of golf with. 
-                        I also love to travel and talk about my faith. 
+                        In my free time, I’m always looking for someone to golf with 🏌️‍♂️. 
+                        <br/>
+                        I also love to travel 🌍 and talk about my faith. 
                         And if you couldn't tell, winter is my favorite season ☃️.
                         <br/><br/>
                         Feel free to reach out anytime for a chat!
