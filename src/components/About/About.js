@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Image, Text, Heading, Flex } from '@chakra-ui/react';
 import FallingParticles from './Snow/FallingParticles';
 import DisappearingText from './DisappearText';
-import ProfPicLarge from './ProfilePics/profPicLarge.jpg';
+import ProfPicLarge from './ProfilePics/2024profpic.JPG';
 import AboutLinks from './AboutLinks';
 import './About.css';  // Import the CSS file
 
@@ -16,11 +16,13 @@ const About = () => {
             <Flex className="about-flex">
                 <Box className="about-text">
                     <Text>
-                        Hi! I’m Sam, a third-year studying Computer Science at Cornell University with a minor in Artificial Intelligence.
+                        Hi! I’m Sam, a third-year studying Computer Science at Cornell University with an intended minor in Artificial Intelligence.
                         <br/><br/>
                         Currently, my interests lie in software engineering, web development, and robotics.
                         <br/><br/>
-                        In my free time, I love to golf 🏌️‍♂️, travel 🌍, and see snow fall ☃️.
+                        In my free time, I’m always looking for someone to play 18 holes of golf with. 
+                        I also love to travel and talk about my faith. 
+                        And if you couldn't tell, winter is my favorite season ☃️.
                         <br/><br/>
                         Feel free to reach out anytime for a chat!
                     </Text>

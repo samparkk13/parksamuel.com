@@ -24,7 +24,7 @@ export function convertToRadians(degrees: number) {
 
 export const DEFAULT_CONFIG = {
   style: {
-    top: 100,
+    top: 120,
     left: 0,
     width: "100%",
     height: "100vh",
