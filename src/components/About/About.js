@@ -22,7 +22,8 @@ const About = () => {
                         <br/><br/>
                         In my free time, I’m always looking for someone to golf with 🏌️‍♂️. 
                         <br/>
-                        I also love to travel 🌍 and talk about my faith. 
+                        I also love to travel 🌍 and talk about my faith ✞. 
+                        <br/>
                         And if you couldn't tell, winter is my favorite season ☃️.
                         <br/><br/>
                         Feel free to reach out anytime for a chat!

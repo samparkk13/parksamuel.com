@@ -1,4 +1,4 @@
-import { Heading, Box, Image, Text, Divider, Button } from "@chakra-ui/react";
+import { Heading, Box, Image, Text, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { ArrowBackIcon } from '@chakra-ui/icons';
 
@@ -31,7 +31,7 @@ const BethpageBlackBlog = () => {
             <br />
             <br />
             <Heading align="center" fontSize="2.25rem" mt="20mm">
-                Bethpage Black: A Test of Character, Mentality, and Grit
+                Bethpage Black: My Passion, Tested
             </Heading>
             <br />
             <br />
