@@ -114,7 +114,6 @@ const HalfMarathon = () => {
                 <Text mt="4" fontStyle="italic">meet josh, jess, and taylor (pictured left to right)</Text>
             </Box>
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
-            <br />
 
             After bringing together this fearsome group of four, we decided to take on the training to run this Cambridge half-marathon. 
             <br />
