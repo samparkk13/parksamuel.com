@@ -224,7 +224,7 @@ const Summer2025Intern = () => {
                         Applied online (07/23) <span>&rarr;&nbsp;</span> 
                         received OA (07/23) <span>&rarr;&nbsp;</span> 
                         completed OA - passed 15/15 test cases for both questions (07/26) <span>&rarr;&nbsp;</span> 
-                        rejected (09/25)
+                        <b>Rejected</b> (09/25)
                     </Box>
                 </Flex>
                 <br/>
@@ -326,6 +326,12 @@ const Summer2025Intern = () => {
                     </Box>
                     <Box fontWeight="medium">
                         Applied online with referral (10/01) <span>&rarr;&nbsp;</span> 
+                        received OA (10/20) <span>&rarr;&nbsp;</span> 
+                        completed OA (10/25) <span>&rarr;&nbsp;</span> 
+                        passed resume and OA (12/12) <span>&rarr;&nbsp;</span> 
+                        1st round hiring manager interview (12/18) <span>&rarr;&nbsp;</span> 
+                        2nd round technical interview (12/20) <span>&rarr;&nbsp;</span> 
+                        <b>Rejected</b> (01/07)
                     </Box>
                 </Flex>
                 <br/>
@@ -334,7 +340,16 @@ const Summer2025Intern = () => {
                         Thoughts:
                     </Box>
                     <Box fontWeight="medium">
-                        
+                        I remember the OA consisting of 3 questions, all LC easy / medium. 
+                        The first one was a dictionary question, the second one was a FactorSum, and the last questions was a variation of sliding window. 
+                        I passed all the test cases. The 1st round interview was a pretty chill behavioral interview with the team's SDE manager. All behavioral
+                        questions and STAR responses. The second round was a technical interview with a SDE on the team, and we went through LC-style coding 
+                        questions. I was able to get through 1st problem and solve 2nd problem but not most efficiently. both problems seemed to be LC easy/mid questions.
+                        <br/>
+                        <br/>
+                        Honestly, looking back at this recruitment process I think there were definetly areas that I could have brushed up on, but the interview experience
+                        nice to have under my belt. Mock interviews and having better prepped answers to behavioral questions that align better with the company values 
+                        were some of the takeaways that I had from this process.
                     </Box>
                 </Flex>
             </Box>
@@ -387,6 +402,111 @@ const Summer2025Intern = () => {
             </Box>
 
 
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
+                    Amazon
+                </Box>
+                <Box mx="0%" display="flex" justifyContent="flex-start">
+                    <Image 
+                        src="images/Logos/amazonLogo.jpg"
+                        alt="Google Logo"
+                        mt="20px" 
+                        w={{ base: "350px", sm: "30%" }}
+                        minWidth="200px"  
+                        maxW="30%" 
+                        h="auto" 
+                        display="block"
+                        borderRadius= "15px"
+                    />
+                </Box>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Position:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Software Development Engineer Internship - 2025 (US)
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Timeline:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Applied online with referral (10/21) <span>&rarr;&nbsp;</span>
+                        Shortlisted from OA (12/12) <span>&rarr;&nbsp;</span>
+
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Thoughts:
+                    </Box>
+                    <Box fontWeight="medium">
+                        I took the 2-hour OA for Amazon over the summer, and tbh I don't remember much from it except for the fact that it was pretty long.
+                        I remember passing 15/15 test cases on the first question and 10/15 test cases on the second, but that's all I can remember. 
+                        The OA also had a lengthy behavioral section. 
+                    </Box>
+                </Flex>
+            </Box>
+
+
+
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
+                    Github
+                </Box>
+                <Box mx="0%" display="flex" justifyContent="flex-start">
+                    <Image 
+                        src="images/Logos/githubLogo.jpeg"
+                        alt="Google Logo"
+                        mt="20px" 
+                        w={{ base: "350px", sm: "30%" }}
+                        minWidth="200px"  
+                        maxW="30%" 
+                        h="auto" 
+                        display="block"
+                        borderRadius= "15px"
+                    />
+                </Box>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Position:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Software Engineering Intern
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Timeline:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Applied online (11/06) <span>&rarr;&nbsp;</span>
+                        Received OA (12/10) <span>&rarr;&nbsp;</span>
+                        Completed OA (12/17) <span>&rarr;&nbsp;</span>
+                        Passed resume and OA (1/03) <span>&rarr;&nbsp;</span>
+                        Behavioral screen with recruiter (1/07) <span>&rarr;&nbsp;</span>
+
+                    </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em">
+                    <Box fontWeight="bold" mr={6}>
+                        Thoughts:
+                    </Box>
+                    <Box fontWeight="medium">
+                        The recruiter I talked to during the behavioral screen was one of the most chill dudes I talked to.
+                        He was very nice and relaxed, making this screen a very smooth process. 
+                    </Box>
+                </Flex>
+            </Box>
+
+
 
 
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
@@ -415,6 +535,8 @@ const Summer2025Intern = () => {
                             <ListItem>ASML</ListItem>
                             <ListItem>Uber</ListItem>
                             <ListItem>Meta</ListItem>
+                            <ListItem>Niantic</ListItem>
+                            <ListItem>OpenAI</ListItem>
                         </List>
                     </Box>
                 </Flex>
