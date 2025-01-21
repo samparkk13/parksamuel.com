@@ -39,14 +39,25 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         2025 Summer Intern: Software Engineer II
                     </Box>
-                    <Box fontWeight="bold" ml="auto" mr = {6} textAlign="right">
+                    {/* <Box fontWeight="bold" ml="auto" mr = {6} textAlign="right">
                         Location: 
+                    </Box>
+                    <Box fontWeight="medium">
+                        Sunnyvale, CA
+                    </Box> */}
+
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
                     </Box>
                     <Box fontWeight="medium">
                         Sunnyvale, CA
                     </Box>
 
                 </Flex>
+
                 <br/>
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontWeight="bold" mr={6}>
@@ -111,6 +122,16 @@ const Summer2025Intern = () => {
                     </Box>
                 </Flex>
                 <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        New York, NY
+                    </Box>
+
+                </Flex>
+                <br/>
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontWeight="bold" mr={6}>
                         Timeline:
@@ -165,6 +186,16 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         Software Engineer, Internship
                     </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Various Locations
+                    </Box>
+
                 </Flex>
                 <br/>
                 <Flex textAlign="left" fontSize="1.0em">
@@ -223,6 +254,16 @@ const Summer2025Intern = () => {
                     </Box>
                 </Flex>
                 <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Various Locations
+                    </Box>
+
+                </Flex>
+                <br/>
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontWeight="bold" mr={6}>
                         Timeline: 
@@ -278,6 +319,16 @@ const Summer2025Intern = () => {
                     </Box>
                 </Flex>
                 <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Various Locations
+                    </Box>
+
+                </Flex>
+                <br/>
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontWeight="bold" mr={6}>
                         Timeline: 
@@ -325,6 +376,16 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         Software Development Engineer Intern
                     </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Atlanta, GA
+                    </Box>
+
                 </Flex>
                 <br/>
                 <Flex textAlign="left" fontSize="1.0em">
@@ -389,6 +450,16 @@ const Summer2025Intern = () => {
                     </Box>
                 </Flex>
                 <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Various Locations
+                    </Box>
+
+                </Flex>
+                <br/>
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontWeight="bold" mr={6}>
                         Timeline:
@@ -434,6 +505,16 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         Software Development Engineer Internship - 2025 (US)
                     </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Seattle, WA
+                    </Box>
+
                 </Flex>
                 <br/>
                 <Flex textAlign="left" fontSize="1.0em">
@@ -486,6 +567,16 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         Software Engineering Intern
                     </Box>
+                </Flex>
+                <br/>
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
+                    <Box fontWeight="bold" mr={6}>
+                        Location:
+                    </Box>
+                    <Box fontWeight="medium">
+                        Remote
+                    </Box>
+
                 </Flex>
                 <br/>
                 <Flex textAlign="left" fontSize="1.0em">
