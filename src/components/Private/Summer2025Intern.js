@@ -32,13 +32,20 @@ const Summer2025Intern = () => {
                     />
                 </Box>
                 <br/>
-                <Flex textAlign="left" fontSize="1.0em">
+                <Flex textAlign="left" fontSize="1.0em" alignItems="center">
                     <Box fontWeight="bold" mr={6}>
                         Position:
                     </Box>
                     <Box fontWeight="medium">
                         2025 Summer Intern: Software Engineer II
                     </Box>
+                    <Box fontWeight="bold" ml="auto" mr = {6} textAlign="right">
+                        Location: 
+                    </Box>
+                    <Box fontWeight="medium">
+                        Sunnyvale, CA
+                    </Box>
+
                 </Flex>
                 <br/>
                 <Flex textAlign="left" fontSize="1.0em">
@@ -491,6 +498,7 @@ const Summer2025Intern = () => {
                         Completed OA (12/17) <span>&rarr;&nbsp;</span>
                         Passed resume and OA (1/03) <span>&rarr;&nbsp;</span>
                         Behavioral screen with recruiter (1/07) <span>&rarr;&nbsp;</span>
+                        Final round interview (1/21) <span>&rarr;&nbsp;</span>
 
                     </Box>
                 </Flex>
@@ -502,6 +510,17 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         The recruiter I talked to during the behavioral screen was one of the most chill dudes I talked to.
                         He was very nice and relaxed, making this screen a very smooth process. 
+                        <br/>
+                        <br/>
+                        I heard back about the final round interview a few days afterwards, which was a 45-minute behavioral and a 45-minute technical interview back-to-back.
+                        The behavioral interview were just situational questions bombarded at me and I tried to answer them as best as I could from 
+                        my knowledge and past experience. The technical interview was much more chill and I was given a LC style question, which I was able to solve in 
+                        the given time. I had some time left over to optimize my solution, but I ran out of time before I was able to cook one up. The interviewer was 
+                        really nice though and as I was implementing my solution, I felt like I was able to really explain my thought process well to her. 
+                        <br/>
+                        <br/>
+                        Overall, it was a great recruitment process with fast response times and good communication.
+
                     </Box>
                 </Flex>
             </Box>
