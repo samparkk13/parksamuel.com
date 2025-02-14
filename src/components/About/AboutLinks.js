@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaYoutube } from 'react-icons/fa';
+import { AiFillProfile } from "react-icons/ai";
 
 const AboutLinks = () => {
     return (
@@ -9,9 +10,9 @@ const AboutLinks = () => {
                 <span style={{ marginLeft: '8px' }}>sam13park@gmail.com</span>
             </a>
            
-            <a href="https://www.youtube.com/@samparkk13" target="_blank" rel="noopener noreferrer" style={{ margin: '10px 0', textDecoration: 'none', color: '#333', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <FaYoutube size={24} style={{ cursor: 'pointer' }} /> 
-                <span style={{ marginLeft: '8px' }}>YouTube</span>
+            <a href="https://samparkk13.github.io/" target="_blank" rel="noopener noreferrer" style={{ margin: '10px 0', textDecoration: 'none', color: '#333', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                <AiFillProfile size={24} style={{ cursor: 'pointer' }} /> 
+                <span style={{ marginLeft: '8px' }}>Portfolio</span>
             </a>
         </div>
     );

@@ -82,7 +82,9 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         This was my first interview process for summer 2025 and the process as a whole wasn't too difficult from a technical POV. 
                         The process definetly gave me a morale boost after not being able to land an internship all throughout sophomore year for the summer. 
-                        The Karat interview were LC easy / medium and final round was all behavioral. 
+                        The Karat interview were LC easy / medium and final round was all behavioral. I was able to get through the first technical question 
+                        and the second one I had the pseudocode down and about half of the function written up before they called time. The behavioral round was
+                        pretty chill with a senior SWE working at WGT. 
                         <br/>
                         <br/>
                         One thing to note: the company overall moves pretty slow, maybe because they were also hiring very early on compared to other companies.
@@ -216,8 +218,9 @@ const Summer2025Intern = () => {
                         Thoughts:
                     </Box>
                     <Box fontWeight="medium">
-                        I was kind of bummed with the rejection, I thought I had a decent shot and I was fairly proud of how I did on the OA.
-                        I wanted to make it somewhat further in the process for the experience and to practice but it is what it is.
+                        I was kind of bummed with the rejection, I thought I had a decent shot to move at least to the interviews 
+                        and I was fairly proud of how I did on the OA. I wanted to make it somewhat further in the process for the 
+                        experience and to practice but it is what it is. It is also Palantir.
                         <br/>
                         Palantir recruitment is known for being notoriously long however, so I guess I can say that I didn't have to go through that.
                         I just had to get numb to the feeling of getting rejected and try to move on for my upcoming OAs / interviews. 
@@ -636,17 +639,17 @@ const Summer2025Intern = () => {
                             <ListItem>Microsoft</ListItem>
                             <ListItem>Paypal</ListItem>
                             <ListItem>Goldman Sachs</ListItem>
-                            <ListItem>American Express</ListItem>
                             <ListItem>NVIDIA</ListItem>
                             <ListItem>LinkedIn</ListItem>
                             <ListItem>Netflix</ListItem>
                             <ListItem>Datadog</ListItem>
                             <ListItem>Bloomberg</ListItem>
-                            <ListItem>ASML</ListItem>
                             <ListItem>Uber</ListItem>
                             <ListItem>Meta</ListItem>
                             <ListItem>Niantic</ListItem>
                             <ListItem>OpenAI</ListItem>
+                            <ListItem>Databricks</ListItem>
+                            <ListItem>Spotify</ListItem>
                         </List>
                     </Box>
                 </Flex>
