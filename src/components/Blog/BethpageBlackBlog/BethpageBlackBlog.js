@@ -340,6 +340,23 @@ const BethpageBlackBlog = () => {
                 <br/>
                 <br/>
                 <br/>
+            </Box>
+            <Box mx="15%" textAlign="center">
+                <Image 
+                    src="images/BlogImages/BethpageBlackBlog/scorecard.jpg" 
+                    alt="me and Robin walking on the 17th hole"  
+                    mt="20px" 
+                    w={{ base: "350px", sm: "80%" }}  
+                    minWidth="250px" 
+                    maxW="45%"
+                    h="auto" 
+                    display="block"
+                    mx="auto"
+                    borderRadius="15px"
+                />
+                <Text mt="4" fontStyle="italic">final scorecard</Text>
+            </Box>
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 <footer class="small-footer-text">
                     <p>© 2024 Samuel Park. All rights reserved.</p>
                 </footer>
