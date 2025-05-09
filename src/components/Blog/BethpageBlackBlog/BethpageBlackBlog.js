@@ -332,14 +332,6 @@ const BethpageBlackBlog = () => {
                 <br/>
                 <br/>
                 Seeing what just 18 holes of golf is capable of makes me want to play the sport of golf again. And again. And again. 
-
-                <br/>
-                <br/>
-                <br/>
-                -Samuel Park
-                <br/>
-                <br/>
-                <br/>
             </Box>
             <Box mx="15%" textAlign="center">
                 <Image 
@@ -357,6 +349,11 @@ const BethpageBlackBlog = () => {
                 <Text mt="4" fontStyle="italic">final scorecard</Text>
             </Box>
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                
+                -Samuel Park
+                <br/>
+                <br/>
+                <br/>
                 <footer class="small-footer-text">
                     <p>© 2024 Samuel Park. All rights reserved.</p>
                 </footer>
