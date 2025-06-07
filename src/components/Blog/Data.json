@@ -1,5 +1,13 @@
 [
     {
+        "title":"Summer 2025 Internship Process",
+        "time":"May 2025",
+        "description": "Going into detail the recruitment process for some companies that I applied to or interviewed with, along with my personal insights",
+        "image": "images/Logos/internshipCover.png",
+        "path": "/Summer2025Internships"
+    },
+
+    {
         "title":"Cambridge Half Marathon",
         "time":"November 2024",
         "description": "How I went from a couch potato with minimal running experience to completing a half marathon in a span of four weeks ",

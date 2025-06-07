@@ -11,9 +11,15 @@ const Summer2025Intern = () => {
             <br />
             <br />
             <Heading align="center">
-                July 2024 - Present
+                July 2024 - May 2025
             </Heading>
 
+            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                Hi there! I'm excited to share an overview of my 2025 summer internship recruitment journey.
+                Here, I’ll walk you through the recruitment processes for the some companies I applied to or interviewed with, along with my personal insights throughout. 
+                In total, I submitted 206 applications, all for software engineering intern roles. 
+                I hope my experiences can offer some helpful perspective on the recruiting process, but feel free to reach out if you have any questions about anything!
+            </Box>
             <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Walmart Global Tech
@@ -71,7 +77,7 @@ const Summer2025Intern = () => {
                         received final round interview invitation (06/04) <span>&rarr;&nbsp;</span> 
                         completed final round interview with senior SWE (06/05) <span>&rarr;&nbsp;</span> 
                         passed interviews but on hiring pause (07/01) <span>&rarr;&nbsp;</span> 
-                        <b>RECEIVED OFFER!!!</b> (09/26)
+                        <b>RECEIVED OFFER!</b> (09/26)
                     </Box>
                 </Flex>
                 <br/>
@@ -81,7 +87,7 @@ const Summer2025Intern = () => {
                     </Box>
                     <Box fontWeight="medium">
                         This was my first interview process for summer 2025 and the process as a whole wasn't too difficult from a technical POV. 
-                        The process definetly gave me a morale boost after not being able to land an internship all throughout sophomore year for the summer. 
+                        The process definitely gave me a morale boost after not being able to land an internship all throughout sophomore year for the summer. 
                         The Karat interview were LC easy / medium and final round was all behavioral. I was able to get through the first technical question 
                         and the second one I had the pseudocode down and about half of the function written up before they called time. The behavioral round was
                         pretty chill with a senior SWE working at WGT. 
@@ -143,7 +149,7 @@ const Summer2025Intern = () => {
                         Received OA (07/20) <span>&rarr;&nbsp;</span> 
                         Attended Open House (07/23) <span>&rarr;&nbsp;</span> 
                         Completed OA (08/03) <span>&rarr;&nbsp;</span> 
-                        Ghosted
+                        <b>Ghosted</b>
                     </Box>
                 </Flex>
                 <br/>
@@ -153,9 +159,17 @@ const Summer2025Intern = () => {
                     </Box>
                     <Box fontWeight="medium">
                         I was actually invited to their open house, where I was exposed to the company and many of its workers.
-                        The open house was pretty awesome: workplace smack in midtown NYC, good benefits, and great people. 
+                        The open house was actually pretty awesome: workplace smack in midtown NYC, good benefits, and great people. 
                         <br/>
-                        I received a 423/600 on the codesignal, probably the reason why I got ghosted for a company like here. 
+                        <br/>
+                        I received a 423/600 on the codesignal, probably the reason why I got ghosted for a company like here. I kind of regretted
+                        my overall performance on this OA because I know that I could have performed much better with more practice and preparation. 
+                        But it was one of my earlier processes, and I knew that I could improve on my mistakes from this process.
+                        <br/>
+                        <br/>
+                        I will definitely be applying here again once new grad positions open up, I think the work that the company did and 
+                        the work-life balance was amazing. 
+
                         
                     </Box>
                 </Flex>
@@ -218,12 +232,13 @@ const Summer2025Intern = () => {
                         Thoughts:
                     </Box>
                     <Box fontWeight="medium">
-                        I was kind of bummed with the rejection, I thought I had a decent shot to move at least to the interviews 
+                        I wish I could have moved on a <i>little</i> more in this process, I thought I had a decent shot to move at least to the interviews 
                         and I was fairly proud of how I did on the OA. I wanted to make it somewhat further in the process for the 
-                        experience and to practice but it is what it is. It is also Palantir.
+                        experience and to practice but it is what it is. I honestly would not have gotten the OA if it wasn't for the referral.
                         <br/>
-                        Palantir recruitment is known for being notoriously long however, so I guess I can say that I didn't have to go through that.
-                        I just had to get numb to the feeling of getting rejected and try to move on for my upcoming OAs / interviews. 
+                        <br/>
+                        I heard the Palantir recruitment was notoriously long, so I wasn't too disappointed. Definitely was a great 
+                        learning experience, andI kept on putting my head down and applying.
                     </Box>
                 </Flex>
             </Box>
@@ -286,8 +301,9 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         I applied with referral at first, but I bombed the OA + the OA was super difficult. 
                         Honestly, I was in disbelief, so I reapplied with another email w/out a referral and received the OA again, which was much much easier. 
-                        I got a perfect score and solved it in pretty good time complexity too IMO. I guess the company wasn't for me though cus I got 
-                        rejected for the CFG hackathon even after having a great OA 
+                        I got a perfect score and solved it in pretty good time complexity too IMO. I guess a lot of others got perfect OA score
+                        too with resumes that the company liked more because I got 
+                        rejected for the CFG hackathon even after having a great OA.
                     </Box>
                 </Flex>
             </Box>
@@ -337,7 +353,7 @@ const Summer2025Intern = () => {
                         Timeline: 
                     </Box>
                     <Box fontWeight="medium">
-                        Applied online with referral (08/06) <span>&rarr;&nbsp;</span> 
+                        Applied online with referral (08/06) <span>&rarr;&nbsp;</span> <b>Ghosted</b>
                     </Box>
                 </Flex>
                 <br/>
@@ -346,7 +362,9 @@ const Summer2025Intern = () => {
                         Thoughts:
                     </Box>
                     <Box fontWeight="medium">
-                        
+                        I applied with referral, and I was hoping that I would hear back sometime during the fall recruitment cycle.
+                        However, I didn't ever hear back from them at all, no rejection email either. Not too disappointed, as Salesforce 
+                        is a great company, but I wish I was able to get the OA at least for the experience.
                     </Box>
                 </Flex>
             </Box>
@@ -418,7 +436,7 @@ const Summer2025Intern = () => {
                         questions. I was able to get through 1st problem and solve 2nd problem but not most efficiently. both problems seemed to be LC easy/mid questions.
                         <br/>
                         <br/>
-                        Honestly, looking back at this recruitment process I think there were definetly areas that I could have brushed up on, but the interview experience
+                        Honestly, looking back at this recruitment process I think there were definitely areas that I could have brushed up on, but the interview experience
                         nice to have under my belt. Mock interviews and having better prepped answers to behavioral questions that align better with the company values 
                         were some of the takeaways that I had from this process.
                     </Box>
@@ -468,7 +486,7 @@ const Summer2025Intern = () => {
                         Timeline:
                     </Box>
                     <Box fontWeight="medium">
-                        Applied online with referral (10/01) <span>&rarr;&nbsp;</span> 
+                        Applied online with referral (10/01) <span>&rarr;&nbsp;</span> <b>Rejected</b>
                     </Box>
                 </Flex>
                 <br/>
@@ -477,7 +495,9 @@ const Summer2025Intern = () => {
                         Thoughts:
                     </Box>
                     <Box fontWeight="medium">
-                        
+                        I did not hear from Google after applying right when the application opened in October. 
+                        Again, not disappointed with the result, as Google is another great company. Hopefully, new grad recruiting
+                        for Google will be different *fingers crossed*.
                     </Box>
                 </Flex>
             </Box>
@@ -527,6 +547,8 @@ const Summer2025Intern = () => {
                     <Box fontWeight="medium">
                         Applied online with referral (10/21) <span>&rarr;&nbsp;</span>
                         Shortlisted from OA (12/12) <span>&rarr;&nbsp;</span>
+                        <b>Rejected</b> (05/08)
+                        
 
                     </Box>
                 </Flex>
@@ -539,6 +561,18 @@ const Summer2025Intern = () => {
                         I took the 2-hour OA for Amazon over the summer, and tbh I don't remember much from it except for the fact that it was pretty long.
                         I remember passing 15/15 test cases on the first question and 10/15 test cases on the second, but that's all I can remember. 
                         The OA also had a lengthy behavioral section. 
+                        <br />
+                        <br />
+                        After about 2 months of silence, I heard from a recruiter that I had been moved onto the final interview because I passed the 
+                        OA portion from when I took it over the summer. For that next month, I was on the LC grind, waiting to hear back to schedule my final 
+                        round interview. However, I ended up not hearing back from the scheduling team, even after multiple attempts to reach out to my recruiter
+                        and the recruiter saying to stay patient as the scheduling team was busy. 
+                        <br />
+                        <br />
+                        This recruitment process was a pretty big disappointment, especially after preparing for 
+                        months for the final round interview 
+                        expecting it to get scheduled. I guess a positive from this experience that 
+                        I can take away is that I was able to brush up on my DSA skills lol. 
                     </Box>
                 </Flex>
             </Box>
@@ -593,6 +627,7 @@ const Summer2025Intern = () => {
                         Passed resume and OA (1/03) <span>&rarr;&nbsp;</span>
                         Behavioral screen with recruiter (1/07) <span>&rarr;&nbsp;</span>
                         Final round interview (1/21) <span>&rarr;&nbsp;</span>
+                        <b>Rejected</b> (02/21)
 
                     </Box>
                 </Flex>
@@ -613,12 +648,28 @@ const Summer2025Intern = () => {
                         really nice though and as I was implementing my solution, I felt like I was able to really explain my thought process well to her. 
                         <br/>
                         <br/>
-                        Overall, it was a great recruitment process with fast response times and good communication.
+                        Even though I wasn't able to pass the final round interview, 
+                        it was a great recruitment process with fast response times and good communication. 
+                        All the workers seemed very kind and this was a company that I would love to recruit for again if possible 
+                        in the future.
 
                     </Box>
                 </Flex>
             </Box>
+            <br/>
+            <br/>
+            <br/>
 
+            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+                <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
+                    Concluding Thoughts
+                </Box>
+                This doesn't capture every single application I submitted or reflect the hours spent preparing, 
+                whether it was grinding LC, looking for different roles, or navigating the ups and downs of internship hunting. 
+                But I’ve tried to highlight the companies that had the most impact on me or taught me something meaningful throughout the process. 
+                Below are a few other companies I applied to but either didn’t hear back from or was ultimately rejected.
+            </Box>
+            <br/>
 
 
 
@@ -643,13 +694,20 @@ const Summer2025Intern = () => {
                             <ListItem>LinkedIn</ListItem>
                             <ListItem>Netflix</ListItem>
                             <ListItem>Datadog</ListItem>
-                            <ListItem>Bloomberg</ListItem>
+                            <ListItem>Bloomberg (w/referral)</ListItem>
                             <ListItem>Uber</ListItem>
                             <ListItem>Meta</ListItem>
                             <ListItem>Niantic</ListItem>
                             <ListItem>OpenAI</ListItem>
                             <ListItem>Databricks</ListItem>
                             <ListItem>Spotify</ListItem>
+                            <ListItem>DoorDash</ListItem>
+                            <ListItem>Robinhood</ListItem>
+                            <ListItem>SpaceX</ListItem>
+                            <ListItem>DoorDash</ListItem>
+                            <ListItem>Notion</ListItem>
+                            <ListItem>Twitch</ListItem>
+                            
                         </List>
                     </Box>
                 </Flex>
