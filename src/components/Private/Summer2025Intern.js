@@ -1,10 +1,34 @@
-import { Heading, Box, Flex, Image, List, ListItem } from "@chakra-ui/react";
+import { Heading, Box, Image, Flex, ListItem, List, Text, Button } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
+import { ArrowBackIcon } from '@chakra-ui/icons';
 
 const Summer2025Intern = () => {
 
     return (
         
         <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
+             <Button 
+                as={Link}  
+                to="/blog" 
+                position="absolute" 
+                top="20%" 
+                left="5%" 
+                bg="#7CB9E8" 
+                color="black"
+                border="2px solid black" 
+                borderRadius="50%" 
+                p="10px" 
+                _hover={{ bg: "#6AA9D8" }}
+                _focus={{ boxShadow: "none" }}
+                textDecoration="none"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+            >
+                <ArrowBackIcon boxSize="24px" />
+            </Button>
+            <br />
+            <br />
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 A Summary of my Internship Hunt for Summer 2025
             </Heading>
@@ -13,6 +37,24 @@ const Summer2025Intern = () => {
             <Heading align="center">
                 July 2024 - May 2025
             </Heading>
+
+            <br/>
+            <Box mx="15%" textAlign="center">
+                <Image 
+                    src="images/Logos/internshipCover.png" 
+                    alt="internship cover photo"  
+                    mt="20px" 
+                    w={{ base: "350px", sm: "80%" }}  
+                    minWidth="250px" 
+                    maxW="45%"
+                    h="auto" 
+                    display="block"
+                    mx="auto"
+                    borderRadius="15px"
+                />
+                <Text mt="4" fontStyle="italic"></Text>
+            </Box>
+            <br/>
 
             <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
                 Hi there! I'm excited to share an overview of my 2025 summer internship recruitment journey.
@@ -238,7 +280,7 @@ const Summer2025Intern = () => {
                         <br/>
                         <br/>
                         I heard the Palantir recruitment was notoriously long, so I wasn't too disappointed. Definitely was a great 
-                        learning experience, andI kept on putting my head down and applying.
+                        learning experience, and I kept on putting my head down and applying.
                     </Box>
                 </Flex>
             </Box>
@@ -433,7 +475,7 @@ const Summer2025Intern = () => {
                         The first one was a dictionary question, the second one was a FactorSum, and the last questions was a variation of sliding window. 
                         I passed all the test cases. The 1st round interview was a pretty chill behavioral interview with the team's SDE manager. All behavioral
                         questions and STAR responses. The second round was a technical interview with a SDE on the team, and we went through LC-style coding 
-                        questions. I was able to get through 1st problem and solve 2nd problem but not most efficiently. both problems seemed to be LC easy/mid questions.
+                        questions. I was able to get through 1st problem and solve 2nd problem but not most efficiently. Both problems seemed to be LC easy/mid questions.
                         <br/>
                         <br/>
                         Honestly, looking back at this recruitment process I think there were definitely areas that I could have brushed up on, but the interview experience
@@ -486,7 +528,7 @@ const Summer2025Intern = () => {
                         Timeline:
                     </Box>
                     <Box fontWeight="medium">
-                        Applied online with referral (10/01) <span>&rarr;&nbsp;</span> <b>Rejected</b>
+                        Applied online with referral (10/01) <span>&rarr;&nbsp;</span> <b>Ghosted</b>
                     </Box>
                 </Flex>
                 <br/>
