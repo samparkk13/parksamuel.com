@@ -18,11 +18,11 @@ const About = () => {
                     <Text>
                         Hi! I’m Sam, a third-year studying Computer Science at Cornell University with an intended minor in Artificial Intelligence.
                         <br/><br/>
-                        Currently, my interests lie in software engineering, web development, and robotics.
+                        Currently, my interests lie in software engineering, artificial intelligence, and robotics.
                         <br/><br/>
                         In my free time, I’m always looking for someone to golf with 🏌️‍♂️. 
                         <br/>
-                        I also love to travel 🌍 and talk about my faith ✞. 
+                        I also love to travel 🌍, talk about my faith ✞, and play board games 🎲. 
                         <br/>
                         And if you couldn't tell, winter is my favorite season ☃️.
                         <br/><br/>
