@@ -27,10 +27,9 @@ const BlogCard = ({ title, time, description, image, path }) => {
         src={image} 
         objectFit='cover' 
         borderRadius={20}
-        boxSize={{ base: '120px', sm: '150px', md: '180px', lg: '220px', xl: '260px' }} // Responsive fixed size for all breakpoints
-        maxW="100%"
-        maxH="260px"
-        mr={6} // Add margin to separate image from text
+        sx={{
+          boxSize: ['40%', '40%', '20%'], 
+        }} 
       />
           <VStack marginTop={5} marginBottom={5} marginRight={5} marginLeft={5}>
             <Heading fontSize="135%" textAlign="center">{title}</Heading>
