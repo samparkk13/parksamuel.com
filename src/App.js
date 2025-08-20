@@ -21,7 +21,7 @@ import BethpageBlackBlog from "./components/Blog/BethpageBlackBlog/BethpageBlack
 import HalfMarathon from "./components/Blog/HalfMarathon/HalfMarathon";
 
 import Summer2025Intern from "./components/Private/Summer2025Intern";
-
+import Resume from "./components/Private/Resume";
 
 
 function ScrollToTop() {
@@ -56,6 +56,7 @@ function App() {
               <Route path = "/CornellBeginnings" element = {<FirstMonthBlog />} />
               <Route path = "/BethpageBlack" element = {<BethpageBlackBlog />} />
               <Route path = "/HalfMarathon" element = {<HalfMarathon />} />
+              <Route path="/resume" element={<Resume />} />
 
               {/* Hidden Routes */}
               <Route path="/Summer2025Internships" element={<Summer2025Intern />} />
