@@ -1,34 +1,11 @@
-import { Heading, Box, Image, Text, Divider, Button } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
-import { ArrowBackIcon } from '@chakra-ui/icons';
+import { Heading, Box, Image, Text, Divider } from "@chakra-ui/react";
 import './KoreaBlog.css';
+import BlogLayout from '../BlogLayout';
 
 const KoreaBlog = () => {
 
     return (
-        
-        <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
-            <Button 
-                as={Link}  
-                to="/blog" 
-                position="absolute" 
-                top="20%" 
-                left="5%" 
-                bg="#7CB9E8" 
-                color="black"
-                border="2px solid black" 
-                borderRadius="50%" 
-                p="10px" 
-                _hover={{ bg: "#6AA9D8" }}
-                _focus={{ boxShadow: "none" }}
-                textDecoration="none"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-            >
-                <ArrowBackIcon boxSize="24px" />
-            </Button>
-            <br />
+        <BlogLayout>
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 The Motherland
             </Heading>
@@ -57,7 +34,7 @@ const KoreaBlog = () => {
             </Box>
             <br/>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 I was born and raised in the United States. 
                 <br/>
                 <br/>
@@ -94,7 +71,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">The 15-hour plane ride knocks people out</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 When “cheap” (~$1300 round trip) plane tickets to Korea suddenly became available due to a new airline, the opportunity to visit presented itself.
 
             </Box>
@@ -115,7 +92,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">The 15-hour plane ride is compensated with great Korean meals</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 Throughout this blog, I’ll reflect on my stay in Korea, sharing reviews of my favorite meals and highlighting some of the most memorable places I visited. 
                 <br/>
                 <br/>
@@ -123,7 +100,7 @@ const KoreaBlog = () => {
 
                 {/* 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 However, any fears that I had about this daunting flight or traveling alone went away after my first plane meal.
             </Box>
             <Box mx="15%" textAlign="center">
@@ -142,7 +119,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">The start of some amazing meals</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 When I arrived, I was greeted by my aunt, my cousin, and their dog. 
             </Box>
             <Box mx="15%" textAlign="center">
@@ -160,7 +137,7 @@ const KoreaBlog = () => {
                 />
                 <Text mt="4" fontStyle="italic">I don't think she liked me a lot</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 Later that day, I met up with the rest of my cousins. 
                 <br/>
                 <br/>
@@ -196,7 +173,7 @@ const KoreaBlog = () => {
                 />
                 <Text mt="4" fontStyle="italic">I decided to take a selfie instead</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 They also told me that eating chicken by the river was very popular. 
             </Box>
             <Box mx="15%" textAlign="center">
@@ -230,7 +207,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">By the River</Text>
             </Box>
             
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 This kicked off the start of my many adventures that I had in Korea.
 
                 <br/>
@@ -270,7 +247,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic"><b>“Hydroxy-alpha-sanshool”</b> is a molecule found in plants and it is believed to be responsible for this numbing and tingling sensation.</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 There are many local stores that sell Malatang across Seoul. 
                 
                 This specific dish was served near Gangnam area in Seoul, at a restaurant called 중경마라탕 강남역점. 
@@ -301,7 +278,7 @@ const KoreaBlog = () => {
                 />
                 <Text mt="4" fontStyle="italic">Yes, the squid moves on the plate</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 Again, there are many local restaurants across Seoul that sell this dish. I would definitely try this dish again in the future when given the opportunity.
                 <br/>
                 <br/>
@@ -327,7 +304,7 @@ const KoreaBlog = () => {
                 />
                 <Text mt="4" fontStyle="italic">pre-grilled</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 The clams were from a local restaurant called 해저수산 (Seabed Sliced Raw Fish) in Busan, and it was truly a hidden local gem. 
                 <br/>
                 <br/>
@@ -354,7 +331,7 @@ const KoreaBlog = () => {
                 />
                 <Text mt="4" fontStyle="italic"> <b>"banchan"</b> - a small Korean side dish <br/> there were many <b>banchans</b> with this meal</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 This dish was served at a restaurant in Gangnam, Seoul called 완미족발 (Wanmi Jokbal). 
 
             </Box>
@@ -374,7 +351,7 @@ const KoreaBlog = () => {
                 />
                 <Text mt="4" fontStyle="italic">Thank you So-hee noona and her then boyfriend (now husband) for bringing me to this amazing place</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 
                 <Box textAlign="left" fontSize="1.15em" fontWeight="bold">
                     1. Gamjatang (Pork Back-Bone Soup)
@@ -402,7 +379,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">c'mon somebody</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 This dish was served at the Sindonggung Gamjatang (신동궁감자탕) at the Myeongdong (명동) branch.
   
                 
@@ -424,7 +401,7 @@ const KoreaBlog = () => {
 
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="center" fontSize="2.0em" fontWeight="bold">
                         Top 3 Memories
                 </Box>
@@ -468,7 +445,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">In our school uniforms</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.15em" fontWeight="bold">
                     2. Bukhansan National Park
                 </Box>
@@ -511,7 +488,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">view of Seoul at the summit</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.15em" fontWeight="bold">
                     1. South Korea vs Peru Friendly Match
                 </Box>
@@ -570,7 +547,7 @@ const KoreaBlog = () => {
                 <Text mt="4" fontStyle="italic">Korea may have lost but our hearts were won</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="center" fontSize="2.0em" fontWeight="bold">
                     Vlog
                 </Box>
@@ -594,7 +571,7 @@ const KoreaBlog = () => {
                 </Box>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="center" fontSize="2.0em" fontWeight="bold">
                     My Final Thoughts
                 </Box>
@@ -620,7 +597,7 @@ const KoreaBlog = () => {
                     <p>© 2024 Samuel Park. All rights reserved.</p>
                 </footer>
             </Box>
-        </Box>
+        </BlogLayout>
     );
 };
 

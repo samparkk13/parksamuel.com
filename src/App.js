@@ -22,6 +22,7 @@ import HalfMarathon from "./components/Blog/HalfMarathon/HalfMarathon";
 
 import Summer2025Intern from "./components/Private/Summer2025Intern";
 import Resume from "./components/Private/Resume";
+import NewGrad2026 from "./components/Private/NewGrad2026";
 
 
 function ScrollToTop() {
@@ -60,6 +61,7 @@ function App() {
 
               {/* Hidden Routes */}
               <Route path="/Summer2025Internships" element={<Summer2025Intern />} />
+              <Route path="/NewGrad2026" element={<NewGrad2026 />} />
 
               {/* Not Found Route */}
               <Route path="*" element={<NotFound />} />

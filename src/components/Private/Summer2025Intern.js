@@ -6,19 +6,19 @@ const Summer2025Intern = () => {
 
     return (
         
-        <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
+        <Box bg="#f5f5f5" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
              <Button 
                 as={Link}  
                 to="/blog" 
                 position="absolute" 
                 top="20%" 
                 left="5%" 
-                bg="#7CB9E8" 
+                bg="#ffffff" 
                 color="black"
                 border="2px solid black" 
                 borderRadius="50%" 
                 p="10px" 
-                _hover={{ bg: "#6AA9D8" }}
+                _hover={{ bg: "#e8e8e8" }}
                 _focus={{ boxShadow: "none" }}
                 textDecoration="none"
                 display="flex"

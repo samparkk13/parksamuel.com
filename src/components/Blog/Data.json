@@ -1,18 +1,20 @@
 [
-    
+
     {
         "title":"Cambridge Half Marathon",
         "time":"November 2024",
         "description": "How I went from a couch potato with minimal running experience to completing a half marathon in a span of four weeks ",
         "image": "images/BlogImages/HalfMarathon/atStartingLine.jpg",
+        "imagePosition": "center",
         "path": "/HalfMarathon"
     },
-    
+
     {
         "title":"Bethpage Black: My Passion, Tested",
         "time":"September 2024",
         "description": "Marking down the rollercoaster of emotions leading up to and at one of the most infamous golf courses known to mankind. ",
         "image": "images/BlogImages/BethpageBlackBlog/warningVertical.jpg",
+        "imagePosition": "50% 80%",
         "path": "/BethpageBlack"
     },
 
@@ -21,18 +23,17 @@
         "time":"July 2024",
         "description": "Writing my scattered thoughts from a two-week trip to South Korea: reviewing amazing eats, stunning sights, and memorable moments.",
         "image": "images/BlogImages/Korea/KoreaBlogPic.jpg",
+        "imagePosition": "50% 80%",
         "path": "/KoreaBlog"
     },
-    
+
     {
         "title":"The Beginning (of Many Beginnings)",
         "time":"June 2024",
         "description": "The story of how I met some really cool people and the memories that were made throughout my first month at Cornell.",
         "image": "images/BlogImages/FreshmanBlogCoverPic.jpg",
+        "imagePosition": "center",
         "path": "/CornellBeginnings"
     }
-    
-
-    
 
 ]

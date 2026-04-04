@@ -47,7 +47,7 @@ const NotFound = () => {
 
 const styles = {
   container: {
-    backgroundColor: "lightblue",
+    backgroundColor: "rgb(212, 213, 218)",
     width: "100vw",
     height: "100vh",
     display: "flex",

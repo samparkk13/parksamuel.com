@@ -3,7 +3,7 @@ import { Box, Text } from "@chakra-ui/react";
 const FirstMonthBlog = () => {
     return (
         <Box
-            bg="lightblue"
+            bg="#f5f5f5"
             width="100vw"
             height="100vh"
             display="flex"

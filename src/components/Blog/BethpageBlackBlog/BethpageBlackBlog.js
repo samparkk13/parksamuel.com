@@ -1,35 +1,11 @@
-import { Heading, Box, Image, Text, Button } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
-import { ArrowBackIcon } from '@chakra-ui/icons';
+import { Heading, Box, Image, Text } from "@chakra-ui/react";
+import BlogLayout from '../BlogLayout';
 
 
 const BethpageBlackBlog = () => {
 
     return (
-        
-        <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
-            <Button 
-                as={Link}  
-                to="/blog" 
-                position="absolute" 
-                top="20%" 
-                left="5%" 
-                bg="#7CB9E8" 
-                color="black"
-                border="2px solid black" 
-                borderRadius="50%" 
-                p="10px" 
-                _hover={{ bg: "#6AA9D8" }}
-                _focus={{ boxShadow: "none" }}
-                textDecoration="none"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-            >
-                <ArrowBackIcon boxSize="24px" />
-            </Button>
-            <br />
-            <br />
+        <BlogLayout>
             <Heading align="center" fontSize="2.25rem" mt="20mm">
                 Bethpage Black: My Passion, Tested
             </Heading>
@@ -54,7 +30,7 @@ const BethpageBlackBlog = () => {
                 <Text mt="4" fontStyle="italic">the beautiful view of hole 1 from the gallery</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 
                 On a warm summer evening, the sun hung low in the sky, casting a golden glow near the horizon. 
                 The air was still, filled with the sweet scent of freshly cut grass from the nearby golf greens 
@@ -127,7 +103,7 @@ const BethpageBlackBlog = () => {
             </Box>
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 As expected, the attendant showed up a little past 5 AM, and after getting our ticket number, we drove to the clubhouse to reserve our time in person. 
 
             </Box>
@@ -147,7 +123,7 @@ const BethpageBlackBlog = () => {
                 <Text mt="4" fontStyle="italic">our ticket number</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 The earliest available time for 2 at Bethpage Black was at 9:40 AM, so we decided to book that. 
                 I was honestly pretty surprised that we got our time as late as we did, as I was expecting a time at least before 8 AM. 
                 Especially after hearing that the first hour of tee times every day were reserved for those who wait in the parking lots. 
@@ -171,7 +147,7 @@ const BethpageBlackBlog = () => {
                 <Text mt="4" fontStyle="italic">not bad prices for NY state residents - $70 each</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 With now a bit less than 4 hours to kill until our tee time, and now with much lower adrenaline levels, 
                 we decided to go back home, eat, recharge, and then come back for our scheduled tee time. 
                 A nice breakfast and a 2-hour nap later, we were ready to go.
@@ -198,7 +174,7 @@ const BethpageBlackBlog = () => {
                 <Text mt="4" fontStyle="italic">for ‘highly skilled golfers’</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="center" fontSize="1.25em" fontWeight="bold">
                     The Course Itself
                 </Box>
@@ -301,7 +277,7 @@ const BethpageBlackBlog = () => {
                 <Text mt="4" fontStyle="italic">walking on the beautiful par-3 17th</Text>
             </Box>
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
 
                 <Box textAlign="left" fontSize="1.1em" fontWeight="bold">
                     Hole 18
@@ -348,7 +324,7 @@ const BethpageBlackBlog = () => {
                 />
                 <Text mt="4" fontStyle="italic">final scorecard</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 
                 -Samuel Park
                 <br/>
@@ -361,9 +337,9 @@ const BethpageBlackBlog = () => {
             </Box>
 
 
-        </Box>
-    
-        );
-    };
-            
+        </BlogLayout>
+
+    );
+};
+
 export default BethpageBlackBlog

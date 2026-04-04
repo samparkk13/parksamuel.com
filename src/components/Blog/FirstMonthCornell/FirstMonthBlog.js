@@ -1,33 +1,10 @@
-import { Heading, Box, Image, Text, Divider, Button } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
-import { ArrowBackIcon } from '@chakra-ui/icons';
+import { Heading, Box, Image, Text, Divider } from "@chakra-ui/react";
+import BlogLayout from '../BlogLayout';
 
 const FirstMonthBlogDraft = () => {
 
     return (
-        
-        <Box bg="lightblue" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
-            <Button 
-                as={Link}  
-                to="/blog" 
-                position="absolute" 
-                top="20%" 
-                left="5%" 
-                bg="#7CB9E8" 
-                color="black"
-                border="2px solid black" 
-                borderRadius="50%" 
-                p="10px" 
-                _hover={{ bg: "#6AA9D8" }}
-                _focus={{ boxShadow: "none" }}
-                textDecoration="none"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-            >
-                <ArrowBackIcon boxSize="24px" />
-            </Button>
-            <br />
+        <BlogLayout>
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 The Beginning (of Many Beginnings)
             </Heading>
@@ -54,7 +31,7 @@ const FirstMonthBlogDraft = () => {
                 />
                 <Text mt="4" fontStyle="italic">How did we get here?</Text>
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 
                 Now that I am halfway through college, I wanted to take a moment to look back on my past two years, perhaps in the form of this blog. 
                 Specifically, the first month of the past two years. 
@@ -105,7 +82,7 @@ const FirstMonthBlogDraft = () => {
                 <Text mt="4" fontStyle="italic">My family sends me off</Text>
             </Box>
             < br/>
-            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" lineHeight="2.0">
             I vividly remember walking my first steps as a student on campus, looking for new and familiar faces, perhaps some other Korean students. 
             Most of these steps were with my roommate and long-time childhood friend, Shreyas.
                 <br />
@@ -134,7 +111,7 @@ const FirstMonthBlogDraft = () => {
                 </Box>
             </Box>
             < br/>
-            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 We didn't really know what to do or where to go, except to follow all the orientation events for first-year students. 
                 I felt like I was in a whole different world, but at least we had each other. 
                 <br />
@@ -172,11 +149,11 @@ const FirstMonthBlogDraft = () => {
                 <br />
                 <br /> Little did we know, that interaction started a lasting friendship, 
                 and we clicked instantly in a lot of ways. The best part was, he was also{" "}
-                <Text as="span" fontFamily="'Times New Roman', sans-serif" textDecoration="line-through">
+                <Text as="span" textDecoration="line-through">
                     Korean
                 </Text>{" "}
                 {" "}
-                <Text as="span" fontFamily="'Times New Roman', sans-serif" textDecoration="line-through">
+                <Text as="span" textDecoration="line-through">
                     handsome
                 </Text>{" "}
                 Christian.
@@ -369,7 +346,7 @@ const FirstMonthBlogDraft = () => {
             </Box>
 
                   
-            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 We also got close and hung out a lot with these two cool sophomores from ER, Esther and Michelle. 
                 <br/>
                 <br/>
@@ -451,7 +428,7 @@ const FirstMonthBlogDraft = () => {
             
             </Box>
             
-            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="20px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 We had fun by hanging out, sitting on the slope, watching the sunset, and finding other ways to entertain ourselves on campus.
                 The nights were filled with conversations between the boys.
                 <br/>
@@ -613,7 +590,7 @@ const FirstMonthBlogDraft = () => {
                         top="50%" 
                         left="50%" 
                         transform="translate(-50%, -50%)" 
-                        bg="lightblue" 
+                        bg="#f5f5f5" 
                         px={2} 
                         color="black"
                     >
@@ -665,7 +642,7 @@ const FirstMonthBlogDraft = () => {
                 </footer>
             </Box>     
 
-        </Box>
+        </BlogLayout>
     );
 }
 

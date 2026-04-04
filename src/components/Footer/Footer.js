@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 const Footer = () => {
     return ( 
         <nav className="footer">
-            <h1>© 2024 Samuel Park</h1>
+            <h1>© 2026 Samuel Park</h1>
             <div className="links">
             <a href="https://www.linkedin.com/in/samparkk13/" target="_blank" rel="noopener noreferrer">
                          <FaLinkedin size={20} />
