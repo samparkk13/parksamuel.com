@@ -8,9 +8,11 @@ const About = () => {
 
                 {/* About Me */}
                 <Box className="about-section">
-                    <Heading className="section-heading">about me</Heading>
+                    <Heading className="section-heading">About Me</Heading>
                     <Text className="about-blurb">
                         Hi! I'm Sam, a student studying Computer Science at Cornell University with an intended minor in Artificial Intelligence.
+                        <br/>
+                        <br/>
                         Currently, my interests lie in software engineering, but I am also enthusiastic about fintech and meteorology.
                     </Text>
                     <Box className="main-links">
@@ -26,7 +28,7 @@ const About = () => {
 
                 {/* Education */}
                 <Box className="about-section">
-                    <Heading className="section-heading">education</Heading>
+                    <Heading className="section-heading">Education</Heading>
                     <Box className="section-list">
                         <Box className="section-row">
                             <Text className="section-year">2022 — 2026</Text>
@@ -47,7 +49,7 @@ const About = () => {
                 <Box className="section-row" mt={4}>
                             <Text className="section-year">relevant coursework</Text>
                             <Box className="section-info">
-                                {['CS 4820: Analysis of Algorithms', 'CS 3780: Machine Learning', 'CS 4414: Systems Programming', 'CS 4782: Deep Learning', 'CS 3700: Artificial Intelligence', 'CS 2110: Object-Oriented Programming and Data Structures'].map(course => (
+                                {['CS 4820: analysis of algorithms', 'CS 3780: machine learning', 'CS 4414: systems programming', 'CS 4782: deep learning', 'CS 3700: artificial intelligence', 'CS 2110: object-oriented programming & data structures'].map(course => (
                                     <Text key={course} className="comment-text">— {course}</Text>
                                 ))}
                             </Box>
@@ -56,7 +58,7 @@ const About = () => {
                 <Box className="section-row" mt={4}>
                             <Text className="section-year">other coursework</Text>
                             <Box className="section-info">
-                                {['ECON 4210: Money & Credit', 'EAS 3420: Atmospheric Dynamics'].map(course => (
+                                {['ECON 4210: money & credit', 'EAS 3420: atmospheric dynamics'].map(course => (
                                     <Text key={course} className="comment-text">— {course}</Text>
                                 ))}
                             </Box>
@@ -66,13 +68,13 @@ const About = () => {
 
                 {/* Experience */}
                 <Box className="about-section">
-                    <Heading className="section-heading">experience</Heading>
+                    <Heading className="section-heading">Experience</Heading>
                     <Box className="section-list">
 
                         <Box className="section-row">
                             <Text className="section-year">2026 — 2026</Text>
                             <Box className="section-info">
-                                <Text className="section-org">Robinhood Markets</Text>
+                                <Text className="section-org">Robinhood</Text>
                                 <Text className="location-text">New York, NY</Text>
                                 <Text className="degree-text">Incoming Software Engineer Intern - Backend</Text>
                                 <Text className="comment-text">// money movement</Text>
@@ -116,13 +118,13 @@ const About = () => {
 
                 {/* Projects */}
                 <Box className="about-section">
-                    <Heading className="section-heading">projects</Heading>
+                    <Heading className="section-heading">Projects</Heading>
                     <Box className="section-list">
 
                         <Box className="section-row">
                             <Text className="section-year">2025</Text>
                             <Box className="section-info">
-                                <Text className="section-org">Portfolio Analysis Bot</Text>
+                                <Text className="section-org">Portfolio Analysis Bot <a className="main-link" href="https://github.com/samparkk13/Stock-Portfolio-Analysis" target="_blank" rel="noopener noreferrer">(code)</a></Text>
                                 <Text className="comment-text">// LLM-based financial portfolio analysis through natural conversation</Text>
                                 <Box className="badge-row">
                                     {['Python', 'LangChain', 'Flask', 'JavaScript', 'HTML/CSS'].map(s => (
@@ -135,7 +137,7 @@ const About = () => {
                         <Box className="section-row">
                             <Text className="section-year">2025</Text>
                             <Box className="section-info">
-                                <Text className="section-org">Settlers of Catan</Text>
+                                <Text className="section-org">Settlers of Catan <a className="main-link" href="https://github.com/samparkk13/CSettlers-of-Catan" target="_blank" rel="noopener noreferrer">(code)</a> <a className="main-link" href="https://youtu.be/92pio3Kr0FA" target="_blank" rel="noopener noreferrer">(demo)</a></Text>
                                 <Text className="comment-text">// terminal-based virtual Settlers of Catan game supporting up to 4 players</Text>
                                 <Box className="badge-row">
                                     {['OCaml', 'VSCode', 'Git'].map(s => (

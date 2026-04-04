@@ -68,7 +68,7 @@ body {
   padding: 6px;
 }
 .footer h1 {
-  font-size: 1.1em;
+  font-size: clamp(0.7rem, 2.5vw, 1.1rem);
   color: rgb(14, 13, 13);
 }
 body {
