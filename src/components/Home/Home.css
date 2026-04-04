@@ -1,10 +1,8 @@
 .home-container {
     background-color: rgb(212, 213, 218);
     width: 100vw;
-    min-height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: -200px;
+    height: calc(100vh - 130px);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;

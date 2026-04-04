@@ -47,7 +47,7 @@ function App() {
           <ScrollToTop />
 
           <div className="App" >
-            
+
             <Routes>
               {/* Routes */}
               <Route path = "/" element = {<Home />} />
@@ -66,10 +66,10 @@ function App() {
               {/* Not Found Route */}
               <Route path="*" element={<NotFound />} />
 
-    
+
             </Routes>
           </div>
-          
+
         </Router>
       </VStack>
       <Footer />
