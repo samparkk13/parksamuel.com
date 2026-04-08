@@ -5,7 +5,7 @@ import BlogBlock from "./BlogCard";
 const Blog = () => {
     return (
         <Box bg="rgb(212, 213, 218)" w="100vw" minH="100vh" display="flex" flexDirection="column" alignItems="center" pt="80px" pb="80px">
-            <Heading mb={10} fontSize="40px">BLOGS</Heading>
+            <Heading mb={10} fontSize="40px" fontFamily="'Quicksand', sans-serif">Blog</Heading>
             <Box
                 display="flex"
                 flexWrap="wrap"

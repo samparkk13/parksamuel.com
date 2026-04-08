@@ -1,34 +1,12 @@
-import { Heading, Box, Image, Flex, ListItem, List, Text, Button } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
-import { ArrowBackIcon } from '@chakra-ui/icons';
+import { Heading, Box, Image, Flex, ListItem, List, Text } from '@chakra-ui/react';
+import BlogLayout from '../Blog/BlogLayout';
+
 
 const Summer2025Intern = () => {
 
     return (
         
-        <Box bg="#f5f5f5" maxW="100vw" minH="100vh" overflowY="auto" overflowX = "hidden" p={4} d="flex" flexDirection="column" alignItems="center">
-             <Button 
-                as={Link}  
-                to="/blog" 
-                position="absolute" 
-                top="20%" 
-                left="5%" 
-                bg="#ffffff" 
-                color="black"
-                border="2px solid black" 
-                borderRadius="50%" 
-                p="10px" 
-                _hover={{ bg: "#e8e8e8" }}
-                _focus={{ boxShadow: "none" }}
-                textDecoration="none"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-            >
-                <ArrowBackIcon boxSize="24px" />
-            </Button>
-            <br />
-            <br />
+        <BlogLayout>
             <Heading align="center" fontSize="2.5rem" mt="20mm">
                 A Summary of my Internship Hunt for Summer 2025
             </Heading>
@@ -56,13 +34,13 @@ const Summer2025Intern = () => {
             </Box>
             <br/>
 
-            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 Hi there! I'm excited to share an overview of my 2025 summer internship recruitment journey.
                 Here, I’ll walk you through the recruitment processes for the some companies I applied to or interviewed with, along with my personal insights throughout. 
                 In total, I submitted 206 applications, all for software engineering intern roles. 
                 I hope my experiences can offer some helpful perspective on the recruiting process, but feel free to reach out if you have any questions about anything!
             </Box>
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Walmart Global Tech
                 </Box>
@@ -145,7 +123,7 @@ const Summer2025Intern = () => {
 
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     The Trade Desk
                 </Box>
@@ -219,7 +197,7 @@ const Summer2025Intern = () => {
 
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Palantir
                 </Box>
@@ -287,7 +265,7 @@ const Summer2025Intern = () => {
 
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     JP Morgan
                 </Box>
@@ -353,7 +331,7 @@ const Summer2025Intern = () => {
 
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Salesforce
                 </Box>
@@ -414,7 +392,7 @@ const Summer2025Intern = () => {
 
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Workday
                 </Box>
@@ -486,7 +464,7 @@ const Summer2025Intern = () => {
             </Box>
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Google
                 </Box>
@@ -545,7 +523,7 @@ const Summer2025Intern = () => {
             </Box>
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Amazon
                 </Box>
@@ -621,7 +599,7 @@ const Summer2025Intern = () => {
 
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Github
                 </Box>
@@ -702,7 +680,7 @@ const Summer2025Intern = () => {
             <br/>
             <br/>
 
-            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Box textAlign="left" fontSize="1.5em" fontWeight="bold">
                     Concluding Thoughts
                 </Box>
@@ -715,7 +693,7 @@ const Summer2025Intern = () => {
 
 
 
-            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="60px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 <Flex textAlign="left" fontSize="1.0em">
                     <Box fontSize="1.5em" fontWeight="bold" mr={6}>
                         Other Notable Companies I applied to:
@@ -755,11 +733,11 @@ const Summer2025Intern = () => {
                 </Flex>
             </Box>
 
-            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" fontFamily="'Times New Roman', sans-serif" lineHeight="2.0">
+            <Box textAlign="left" mt="30px" mx="15%" fontWeight="medium" lineHeight="2.0">
                 Let me know if you have any questions about any of the above recruitment processes and I will try to answer to my best knowledge and memory!
             </Box>
 
-        </Box>
+        </BlogLayout>
     );
 };
 

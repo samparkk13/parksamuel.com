@@ -19,6 +19,7 @@ import KoreaBlog from "./components/Blog/Korea/KoreaBlog";
 import FirstMonthBlog from "./components/Blog/FirstMonthCornell/FirstMonthBlog";
 import BethpageBlackBlog from "./components/Blog/BethpageBlackBlog/BethpageBlackBlog";
 import HalfMarathon from "./components/Blog/HalfMarathon/HalfMarathon";
+import GoogleBlog from "./components/Blog/GoogleBlog/GoogleBlog";
 
 import Summer2025Intern from "./components/Private/Summer2025Intern";
 import Resume from "./components/Private/Resume";
@@ -62,6 +63,7 @@ function App() {
               {/* Hidden Routes */}
               <Route path="/Summer2025Internships" element={<Summer2025Intern />} />
               <Route path="/NewGrad2026" element={<NewGrad2026 />} />
+              <Route path="/GoogleBlog" element={<GoogleBlog />} />
 
               {/* Not Found Route */}
               <Route path="*" element={<NotFound />} />
