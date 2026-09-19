@@ -10,10 +10,7 @@ const About = () => {
                 <Box className="about-section">
                     <Heading className="section-heading">About Me</Heading>
                     <Text className="about-blurb">
-                        Hi! I'm Sam, a student studying Computer Science at Cornell University with an intended minor in Artificial Intelligence.
-                        <br/>
-                        <br/>
-                        Currently, my interests lie in software engineering, but I am also enthusiastic about fintech and meteorology.
+                        Hi! I'm Sam, a software engineer at Robinhood.
                     </Text>
                     <Box className="main-links">
                         <a className="main-link" href="https://github.com/samparkk13" target="_blank" rel="noopener noreferrer">github</a>
@@ -36,20 +33,21 @@ const About = () => {
                                 <Text className="section-org">Cornell University</Text>
                                 <Text className="location-text">Ithaca, NY</Text>
                                 <Text className="degree-text">Bachelor of Science in Computer Science</Text>
-                                <Box className="badge-row">
+                                <Text className="comment-text">// minor in AI</Text>
+                                {/* <Box className="badge-row">
                                     {['AI', 'Robotics', 'Algorithms', 'Databases'].map(s => (
                                         <span key={s} className="skill-badge">{s}</span>
                                     ))}
-                                </Box>
+                                </Box> */}
                             </Box>
                         </Box>
                     </Box>
                 </Box>
 
-                <Box className="section-row" mt={4}>
+                {/* <Box className="section-row" mt={4}>
                             <Text className="section-year">relevant coursework</Text>
                             <Box className="section-info">
-                                {['CS 4820: analysis of algorithms', 'CS 3780: machine learning', 'CS 4414: systems programming', 'CS 4782: deep learning', 'CS 3700: artificial intelligence', 'CS 2110: object-oriented programming & data structures'].map(course => (
+                                {['CS 4820: analysis of algorithms', 'CS 3780: machine learning', 'CS 4414: systems programming', 'CS 4782: deep learning', 'CS 3700: artificial intelligence', 'CS 4320: database systems', 'CS 2110: object-oriented programming & data structures'].map(course => (
                                     <Text key={course} className="comment-text">— {course}</Text>
                                 ))}
                             </Box>
@@ -62,7 +60,7 @@ const About = () => {
                                     <Text key={course} className="comment-text">— {course}</Text>
                                 ))}
                             </Box>
-                        </Box>
+                        </Box> */}
 
                 <Divider className="section-divider" />
 
@@ -72,12 +70,27 @@ const About = () => {
                     <Box className="section-list">
 
                         <Box className="section-row">
+                            <Text className="section-year">2026 — Present</Text>
+                            <Box className="section-info">
+                                <Text className="section-org">Robinhood</Text>
+                                <Text className="location-text">New York, NY</Text>
+                                <Text className="degree-text">Software Engineer</Text>
+                                <Text className="comment-text">// money movement</Text>
+                            </Box>
+                        </Box>
+
+                        <Box className="section-row">
                             <Text className="section-year">2026 — 2026</Text>
                             <Box className="section-info">
                                 <Text className="section-org">Robinhood</Text>
                                 <Text className="location-text">New York, NY</Text>
-                                <Text className="degree-text">Incoming Software Engineer Intern - Backend</Text>
+                                <Text className="degree-text">Software Engineer Intern</Text>
                                 <Text className="comment-text">// money movement</Text>
+                                <Box className="badge-row">
+                                    {['Golang', 'Python'].map(s => (
+                                        <span key={s} className="skill-badge">{s}</span>
+                                    ))}
+                                </Box>
                             </Box>
                         </Box>
 
@@ -90,21 +103,6 @@ const About = () => {
                                 <Text className="comment-text">// search engine & marketing</Text>
                                 <Box className="badge-row">
                                     {['Python', 'SQL', 'Azure'].map(s => (
-                                        <span key={s} className="skill-badge">{s}</span>
-                                    ))}
-                                </Box>
-                            </Box>
-                        </Box>
-
-                        <Box className="section-row">
-                            <Text className="section-year">2024 — 2024</Text>
-                            <Box className="section-info">
-                                <Text className="section-org">Manna Hot Bagel Inc</Text>
-                                <Text className="location-text">Brooklyn, NY</Text>
-                                <Text className="degree-text">Software Engineer Intern</Text>
-                                <Text className="comment-text">// frontend + web development</Text>
-                                <Box className="badge-row">
-                                    {['React', 'JavaScript', 'CSS'].map(s => (
                                         <span key={s} className="skill-badge">{s}</span>
                                     ))}
                                 </Box>
