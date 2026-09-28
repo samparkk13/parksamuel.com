@@ -85,7 +85,7 @@ const About = () => {
                                 <Text className="section-org">Robinhood</Text>
                                 <Text className="location-text">New York, NY</Text>
                                 <Text className="degree-text">Software Engineer Intern</Text>
-                                <Text className="comment-text">// money movement</Text>
+                                <Text className="comment-text">// 401(k) rollovers</Text>
                                 <Box className="badge-row">
                                     {['Golang', 'Python'].map(s => (
                                         <span key={s} className="skill-badge">{s}</span>
